@@ -12,19 +12,19 @@ public class TryCatch {
 			System.out.println(e.getMessage());                         // ArithmeticException
 		}
 
-		String str=null;
+		String strr=null;
 		try {
-			System.out.println(str.length());
+			System.out.println(strr.length());
 		}
-	catch(NullPointerException  g)                                          // NullPointerException
+	catch(NullPointerException  s)                                          // NullPointerException
 		{
-		System.out.println(g.getMessage());
+		System.out.println(s.getMessage());
 		}
 
 			String st="aghfd";
-			int intk=Integer.parseInt(st);
+			int e=Integer.parseInt(st);
 			try {
-			System.out.println(intk);
+			System.out.println(e);
 			}
 			catch(NumberFormatException d) {                       // NumberFormatException
 			System.out.println(d.getMessage());
