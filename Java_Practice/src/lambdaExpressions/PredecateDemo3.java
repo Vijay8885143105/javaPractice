@@ -9,7 +9,7 @@ public class PredecateDemo3 {
 
 	public static void main(String[] args) {
 		int a[]= {15,20,36,50,59,60};
-		Predicate<Integer>p1=i->(i%2==0);
+		Predicate<Integer>p1=i->(i%2==0);     //Takes single parameter & returns boolean
 		Predicate<Integer>p2=i->(i>50);
 		/*   for (int Wish : a) {
 			//if (p1.test(Wish)&&p2.test(Wish))

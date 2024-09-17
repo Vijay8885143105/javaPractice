@@ -6,7 +6,7 @@ public class PredicateDemo1 {
 
 	public static void main(String[] args) {
 		//Example1:
-		Predicate<Integer> p=i->(i>10);
+		Predicate<Integer> p=i->(i>10);   //Takes single parameter & returns boolean 
 		System.out.println(p.test(25));   //true
 		System.out.println(p.test(17));  //true
 		System.out.println(p.test(9));  //false

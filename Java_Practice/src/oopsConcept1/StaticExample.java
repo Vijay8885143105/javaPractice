@@ -1,4 +1,4 @@
-package oopsConcept;
+package oopsConcept1;
 
 public class StaticExample {
 	int a; //Non static variable
