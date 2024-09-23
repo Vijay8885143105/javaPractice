@@ -3,7 +3,7 @@ package lambdaExpressions;
 //p1...Check number is even
 //p2.....Check number is greater then 50
 
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class PredecateDemo3 {
 

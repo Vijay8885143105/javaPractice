@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance1;
 
 
 class A

@@ -15,9 +15,7 @@ public class TwoDimentionObjectArray {
 				System.out.println(G);
 			}
 		}
-		
-
-
 	}
-
 }
+
+

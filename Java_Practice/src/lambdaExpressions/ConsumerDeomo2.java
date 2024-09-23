@@ -1,9 +1,9 @@
 package lambdaExpressions;
 
-import java.util.ArrayList;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.*;
+import java.util.function.*;
+import java.util.function.*;
+import java.util.function.*;
 
 class Employee
 {

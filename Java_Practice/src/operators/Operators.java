@@ -1,4 +1,4 @@
-package oopsConcept2;
+package operators;
 
 public class Operators {
 

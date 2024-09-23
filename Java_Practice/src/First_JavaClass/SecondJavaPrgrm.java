@@ -1,4 +1,4 @@
-package oopsConcept2;
+package First_JavaClass;
 public class SecondJavaPrgrm
 {
 	public static void main(String args[]) {

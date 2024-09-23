@@ -1,6 +1,6 @@
 package lambdaExpressions;
 
-import java.util.function.Function;
+import java.util.function.*;
 
 public class FunctionDemo1 {
 

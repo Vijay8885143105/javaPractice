@@ -1,6 +1,6 @@
 package lambdaExpressions;
 
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class PredicateDemo1 {
 
