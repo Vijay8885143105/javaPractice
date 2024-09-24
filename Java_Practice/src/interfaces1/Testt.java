@@ -17,7 +17,7 @@ class test123 extends test   //not allowed , if we put final keyword in front cl
 	}
 }
 
-public class Test {
+public class Testt {
 
 	public static void main(String[] args) {
 

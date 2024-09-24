@@ -1,4 +1,4 @@
-package exceptionhandling;
+package exceptionhandling1;
 
 public class HandlingChkdExptns {
 
