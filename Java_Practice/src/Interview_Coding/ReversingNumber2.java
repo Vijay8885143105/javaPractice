@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReversingNumber2 {
 
 	public static void main(String[] args) {
-		Scanner scr=new Scanner(System.in);
+		Scanner scr=new Scanner(System.in);    //System.in is the argument
 		System.out.println("Enter a number");
 		int num=scr.nextInt();
 		/*By  using algorithm
