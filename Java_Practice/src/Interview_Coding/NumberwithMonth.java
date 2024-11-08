@@ -3,8 +3,8 @@ package Interview_Coding;
 public class NumberwithMonth {
 
 	public static void main(String[] args) {
-		int i=12;
-		switch (i) {
+		int key=12;
+		switch (key) {
 		case 1:System.out.println("janaury");break;
 		case 2:System.out.println("febraury");break;
 		case 3:System.out.println("march");break;

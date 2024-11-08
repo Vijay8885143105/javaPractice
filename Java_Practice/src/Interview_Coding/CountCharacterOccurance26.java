@@ -9,6 +9,7 @@ public class CountCharacterOccurance26 {
 		String str1= str.replace("a", "");
 		int Total_Count_AfterRemove=str1.length();
 		System.out.println("Total length of the string after removing a::::::"+Total_Count_AfterRemove);
+		System.out.println("a will be repeated " +(Total_Count-Total_Count_AfterRemove)+"    times");
 	}
 
 }

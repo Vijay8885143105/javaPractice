@@ -8,22 +8,22 @@ public class ReversingNumber2 {
 		Scanner scr=new Scanner(System.in);    //System.in is the argument
 		System.out.println("Enter a number");
 		int num=scr.nextInt();
-		/*By  using algorithm
+		//By  using algorithm
 		int rev=0;
 		while (num!=0) {
 			rev=rev*10 + num%10;
 			num=num/10;			
-		}*/
+		}
 
 		/*Using StringBuffer class
 		StringBuffer sb=new StringBuffer(String.valueOf(num));
 		StringBuffer rev=sb.reverse();
 		System.out.println(rev);*/
 
-		//Using stringBuilder Class
+		/*Using stringBuilder Class
 		StringBuilder sb1=new StringBuilder();
-		sb1.append(num);
+		sb1.append(num);                        //append means in english ::::incude
 		StringBuilder	rev1=sb1.reverse();
-		System.out.println(rev1);		
+		System.out.println(rev1);	*/	
 	}
 }

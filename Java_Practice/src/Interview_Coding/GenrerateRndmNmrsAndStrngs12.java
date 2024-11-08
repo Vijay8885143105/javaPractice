@@ -15,5 +15,4 @@ public class GenrerateRndmNmrsAndStrngs12 {
 		//Approach 2
 		System.out.println(Math.random());    //Math is a Class ,Need not to Create a Object
 	}
-
 }

@@ -14,14 +14,13 @@ public class PrimeNumber11 {
 				}
 				if (count==2)
 				{
-					System.out.println("Given number is prime number");
+					System.out.println("Given number is prime number "+num);
 				}
 			}
 		}
 		else 
 		{
-			System.out.println("Given number is Not Prime number");
-
+		System.out.println("Given number is Not Prime number");
 		}
 	}
 }
