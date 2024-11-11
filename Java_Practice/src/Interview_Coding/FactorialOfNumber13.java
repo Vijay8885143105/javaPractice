@@ -12,7 +12,6 @@ public class FactorialOfNumber13 {
             	System.out.println("Facotorial of number  "+facotorial);*/
 		for (int i = 5; i >=1; i--) {
 			facotorial=facotorial*i;
-
 		}
 		System.out.println("Factorial of a number     "+facotorial);
 	}
