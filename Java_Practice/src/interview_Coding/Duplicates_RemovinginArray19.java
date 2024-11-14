@@ -31,7 +31,8 @@ class Dupplicates_RemovinginArray19{
               int[] arr = {1, 2, 3, 4, 4, 5, 2, 6};
     	        // Use HashSet to remove duplicates
     	        HashSet<Integer> set = new HashSet<>();
-    	        for (int num : arr) {
+    	        for (int num : arr)
+    	        {
     	            set.add(num);  // HashSet removes duplicates
     	        }
     	        // Print unique elements
