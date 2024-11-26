@@ -7,7 +7,7 @@ public class ReversingNumber2 {
 	public static void main(String[] args) {
 		Scanner scr=new Scanner(System.in);    //System.in is the argument
 		System.out.println("Enter a number");
-		int num=scr.nextInt();
+		int num=scr.nextInt(); //It is used to read the next integer value from the input. 
 		//By  using algorithm
 		int rev=0;
 		while (num!=0) {

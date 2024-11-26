@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PalindromeNumber4 {
 
 	public static void main(String[] args) {
+		//A palindrome number is a number that remains the same when its digits are reversed.
 		Scanner scr=new Scanner(System.in);
 		System.out.println("Enter a number");
 		int num=scr.nextInt();

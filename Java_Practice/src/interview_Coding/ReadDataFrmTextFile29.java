@@ -8,6 +8,11 @@ import java.util.Scanner;
 public class ReadDataFrmTextFile29 {
 
 	public static void main(String[] args) throws Throwable {
+		// next()         Reads the next complete token from the input.
+		//next()          reads the next token (word) entered by the user. This means it will stop reading at the first whitespace
+		//A token        is usually a sequence of characters separated by whitespace
+		//nextLine()    It reads input until it encounters a newline character.
+		// hasNext()    Checks if there is another token in the input.
 		//Approach 1
 		/*FileReader fr=new FileReader("D:\\VijayTexton25thoctober.text");
 		BufferedReader br=new BufferedReader(fr);

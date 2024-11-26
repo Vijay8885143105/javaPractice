@@ -7,7 +7,9 @@ import java.io.IOException;
 public class WriteDataintoTextFile30 {
 
 	public static void main(String[] args) throws Throwable {
-		// TODO Auto-generated method stub
+		//        / represents the root directory and is used as a directory separator.
+		//       // can be used in network paths 
+	// Understanding the usage of \ and \\ is essential for correctly handling strings and paths in programming
 		FileWriter fw=new FileWriter("D:\\VijayTexton25thoctober.text");
 		BufferedWriter bw=new BufferedWriter(fw);
 		bw.write("Vijay learning java");

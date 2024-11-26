@@ -5,6 +5,7 @@ import java.util.HashSet;
 public class DuplicatesElementsInArray19 {
 
 	public static void main(String[] args) {
+		//length is a property & length() is a method
 		/*String arr[]= {"java","Python","C","C#","java",".Net","Python"};
 		boolean flag=false;
 		for (int i = 0; i < arr.length; i++) {

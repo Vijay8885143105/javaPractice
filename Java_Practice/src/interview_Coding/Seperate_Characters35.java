@@ -7,12 +7,18 @@ public class Seperate_Characters35 {
         StringBuilder upperCase = new StringBuilder();
         StringBuilder numbers = new StringBuilder();
 
-        for (char ch : input.toCharArray()) {
-            if (Character.isLowerCase(ch)) {
+        for (char ch : input.toCharArray()) 
+        {
+            if (Character.isLowerCase(ch)) 
+            {
                 lowerCase.append(ch);
-            } else if (Character.isUpperCase(ch)) {
+            } 
+            else if (Character.isUpperCase(ch))
+            {
                 upperCase.append(ch);
-            } else if (Character.isDigit(ch)) {
+            } 
+            else if (Character.isDigit(ch))
+            {
                 numbers.append(ch);
             }
         }

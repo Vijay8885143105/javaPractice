@@ -3,7 +3,7 @@ package interview_Coding;
 public class MissingNumberinArray17 {
 
 	public static void main(String[] args) {
-		//Array should not have duplicates
+		//Array should not have duplicates  *
 		//Array no need to be in sorted order
 		//Values should be in range
 		int a[]= {1,2,3,5,6};

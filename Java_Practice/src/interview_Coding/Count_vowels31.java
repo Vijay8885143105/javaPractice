@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Count_vowels31 {
     public static void main(String[] args) {
         String str = "mariajatrutha";
-        char[] char_array=str.toCharArray();
+        char char_array[]=str.toCharArray();
         System.out.println(char_array);
         int vowelCount = 0;
 

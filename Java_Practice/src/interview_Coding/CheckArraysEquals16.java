@@ -19,6 +19,8 @@ public class CheckArraysEquals16 {
               }*/
               
               //Approach 2
+		//==           It is used to compare the reference (memory address) of two objects.
+		//equals    It is used to compare the contents (values) of two objects for equality.
               int[] arr1={1,2,3,4,5};
               int[] arr2={1,6,2,4,5};
               HashSet<Integer> hs1=new HashSet<>();

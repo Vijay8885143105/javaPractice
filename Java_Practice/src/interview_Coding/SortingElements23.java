@@ -6,6 +6,7 @@ import java.util.Collections;
 public class SortingElements23 {
 
 	public static void main(String[] args) {
+		// Arrays.toString()        The string representation consists of a list of the array's elements.
 	      // Approach 1
 		/* int a[]= {20,40,30,50,60,10};
        System.out.println("Arrays before sorting   "+Arrays.toString(a));
