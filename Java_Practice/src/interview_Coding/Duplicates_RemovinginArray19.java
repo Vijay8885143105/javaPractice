@@ -29,15 +29,15 @@ class Dupplicates_RemovinginArray19{
         }*/
     	
     	
-              int[] arr = {1, 2, 3, 4, 4, 5, 2, 6};
+              int arr[] = {1, 2, 3, 4, 4, 5, 2, 6};
     	        // Use HashSet to remove duplicates
-    	        HashSet<Integer> set = new HashSet<>();
+    	        HashSet<Integer> hs = new HashSet<>();
     	        for (int num : arr)
     	        {
-    	            set.add(num);  // HashSet removes duplicates
+    	            hs.add(num);  // HashSet removes duplicates
     	        }
     	        // Print unique elements
-    	        System.out.println(set);
+    	        System.out.println(hs);
     	    }
     	}
    

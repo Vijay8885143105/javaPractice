@@ -4,7 +4,7 @@ import java.util.*;
 class T_Equilateral_Numbers34{
     public static void main(String[] args)
     {                                                                                                   
-        int n=6;
+        int n=6;   //The variable n is initialized to 6, which defines the number of lines in the pattern.
         for(int i=1;i<=6;i++)   //rows
         {
             for(int j=1;j<=i;j++)  //spaces  //number of spaces increases with each line

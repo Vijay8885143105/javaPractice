@@ -8,9 +8,12 @@ public class DuplicatesElementsInArray19 {
 		//length is a property & length() is a method
 		/*String arr[]= {"java","Python","C","C#","java",".Net","Python"};
 		boolean flag=false;
-		for (int i = 0; i < arr.length; i++) {
+		// Iterate over each element in the array
+		for (int i = 0; i < arr.length; i++)
+		 {
+		 //Check each element against the subsequent elements
 			for (int j = i+1; j < arr.length; j++) {
-				if (arr[i]==arr[j]) 
+				if (arr[i].equals(arr[j]))
 				{
 					System.out.println("Duplicate element  found   ::::"+arr[i]);
 					flag=true;			

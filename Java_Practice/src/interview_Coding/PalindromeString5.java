@@ -13,9 +13,12 @@ public class PalindromeString5 {
 		int len=str.length();
 
 		String rev="";
+		//This loop iterates from the end of the string to the beginning, 
+		//appending each character to the rev string, effectively reversing the string.
 		for (int i=len-1; i >=0; i--) {
 			rev=rev+str.charAt(i);
 		}
+		/// Check if the original string is equal to the reversed string
 		if (org_str.equals(rev)) {
 			System.out.println("Palindrome String");
 		}
@@ -23,5 +26,6 @@ public class PalindromeString5 {
 		{
 			System.out.println("Not Palindrome String"); 
 		}
+		scr.close();  //Close the scanner
 	}
 }

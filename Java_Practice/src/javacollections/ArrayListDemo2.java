@@ -37,11 +37,6 @@ public class ArrayListDemo2 {
 		//shuffling ..........Collections.shuffle()
 		Collections.shuffle(al);
 		System.out.println("Elements in the ArrayList  After shuffling                              "+al);
-
-
-
-
-
 	}
 
 }

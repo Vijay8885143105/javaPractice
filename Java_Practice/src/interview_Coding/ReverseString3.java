@@ -1,15 +1,15 @@
 package interview_Coding;
 
-public class ReverseSring3 {
+public class ReverseString3 {
 
 	public static void main(String[] args) {
 		//Using concatenation 
 		String str="ABCDEF";
-		String rev="";
+		String rev="";      //initializes an empty string and rev to store the reversed string.
 		/*int	len=str.length(); //6
 		System.out.println(len);
 		for (int i = len-1; i >=0; i--) {
-			rev =rev+str.charAt(i);
+			rev =rev+str.charAt(i);    //appends each character of str (starting from the end)
 		}
 		System.out.println(rev); //FEDCBA*/
 		
