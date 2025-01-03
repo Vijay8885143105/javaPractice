@@ -9,7 +9,7 @@ public class PalindromeNumber4 {
 		Scanner scr=new Scanner(System.in);
 		System.out.println("Enter a number");
 		int num=scr.nextInt();
-		int org_num=num;
+		int org_num=num;  //This line stores the original number in org_num so that it can be used later for comparison.
 		//Using algorithm
 		int rev=0;
 		while(num!=0)
@@ -19,11 +19,11 @@ public class PalindromeNumber4 {
 		}
 		if(org_num==rev)
 		{
-			System.out.println("Polindrome Number");
+			System.out.println("Palindrome Number");
 		}
 		else
 		{
-			System.out.println(" Not Polindrome Number");
+			System.out.println(" Not Palindrome Number");
 
 		}
 	}

@@ -5,8 +5,10 @@ public class Bubblesort22{
 		int arr[] = {4,6,0,3,7,0,9};
 		System.out.println(Arrays.toString(arr)); //method is used to print the array in a readable format.
 		int len = arr.length;
+		//Outer loop for the number of passes
 		for(int i=0;i<len-1;i++)
 		{
+			//Inner loop for comparing adjacent elements
 			for(int j=0;j<len-1-i;j++)
 			{
 				//compares each pair of adjacent elements. If the current element (a[j]) is smaller than the next element (a[j + 1]), they are swapped. 

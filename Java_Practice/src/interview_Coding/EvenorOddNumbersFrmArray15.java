@@ -3,6 +3,7 @@ package interview_Coding;
 public class EvenorOddNumbersFrmArray15 {
 
 	public static void main(String[] args) {
+		//The array a is initialized with values {1, 2, 3, 4, 5, 6, 7, 8, 9}.
              int a[]= {1,2,3,4,5,6,7,8,9};
              /*Extracting even numbers
              System.out.println("Even numbers are..............");

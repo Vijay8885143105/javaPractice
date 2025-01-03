@@ -6,6 +6,7 @@ public class FactorialOfNumber13 {
 		//5!=1*2*3*4*5=120
 		int num=5;
 		long facotorial=1;     //Variable to store the factorial result
+		//Loop to calculate factorial
 		/* for (int i = 1; i <=5; i++) {
                 	facotorial=facotorial*i; //1 2 6 24 120      //Multiply factorial by the current loop index
 				}

@@ -13,6 +13,7 @@ public class Repetition_Vowels32
 		for(char var:str.toCharArray())
 		{
 			//Check if the character is a vowel
+			//indexOf() method to check for vowels in the string
 			if("aeiou".indexOf(var) !=-1)  //it is a simple and effective way to check for vowels.
 			{
 				vowels =vowels+var;  //Add the vowel to the vowels string

@@ -11,7 +11,7 @@ public class Char_Identification37
             if(str.charAt(i)==letter)
             {
         System.out.println( "letter found  At   "+i);
-        flag=true;
+        flag=true; //indicates letter was found
         break;
             }
         }

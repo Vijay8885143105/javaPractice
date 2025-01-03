@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class LargestOfThreeNumbers9 {
 
 	public static void main(String[] args) {
+		//new Scanner(...) is the constructor of the Scanner class.
+		//System.in is an input stream that is connected to the keyboard (standard input).
 		Scanner scr=new Scanner(System.in);
 		System.out.println("Enter First number");
 		int a=scr.nextInt();
