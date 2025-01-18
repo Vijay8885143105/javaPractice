@@ -10,5 +10,9 @@ public class SplitMethod_43 {
         // Print the word "swetha"
         // Assuming we know "swetha" is the 3rd word (index 2)
         System.out.println(words[2]);
+        System.out.println("====================================================");
+        System.out.println(10 + 20 + "Welcome");       //30Welcome             performed arithmetic operation
+        System.out.println("Welcome" + 10 + 20);      //Welcome1020         in this number is converted to string 
+
     }
 }

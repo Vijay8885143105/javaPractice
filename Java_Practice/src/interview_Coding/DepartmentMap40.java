@@ -66,7 +66,10 @@ public class DepartmentMap40 {
 				System.out.println("New Value for 'Banana': " + entry.getValue());
 			}
 		} 
-		
+		for(Map.Entry<String,Integer> entry: map.entrySet())
+		  {
+		      System.out.println(entry);
+		  }
 		System.out.println("============================================");
 		
 		HashMap<Integer,String> hm=new HashMap<>();
