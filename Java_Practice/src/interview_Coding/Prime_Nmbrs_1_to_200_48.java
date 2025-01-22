@@ -1,5 +1,5 @@
 package interview_Coding;
-public class Prime_Nmbrs_1_to_200_47{
+public class Prime_Nmbrs_1_to_200_48{
     public static void main(String[] args)
     {
         for(int i=1;i<=100;i++)

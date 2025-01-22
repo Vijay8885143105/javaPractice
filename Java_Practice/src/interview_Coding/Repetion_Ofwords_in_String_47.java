@@ -1,7 +1,7 @@
 package interview_Coding;
 
 import java.util.*;
-public class Repetion_Ofwords_in_String_46{
+public class Repetion_Ofwords_in_String_47{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
