@@ -24,13 +24,6 @@ public class ArrayListExample {
 		for (String v : list) {
 			System.out.println(v);             //Reading Elements from Array List
 		}
-
-
-
-
-
-
-
 	}
 
 }

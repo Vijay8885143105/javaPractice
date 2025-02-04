@@ -1,5 +1,7 @@
 package interview_Coding;
 
+import java.util.Arrays;
+
 public class MaxAndMinElmntsinArray18 {
 
 	public static void main(String[] args) {
@@ -24,5 +26,13 @@ public class MaxAndMinElmntsinArray18 {
 			}
 		}
 		System.out.println("Maximum number in Array is  "+max);
+		System.out.println("============================================");
+		int a1[] = {10, 20, 30, 40, 50, 60, 70};
+
+        // Sort the array in ascending order
+        Arrays.sort(a1);
+
+        // The second largest element is at index n-2
+        System.out.println("Second largest number in the array is " + a1[a1.length - 2]);
 	}
 }

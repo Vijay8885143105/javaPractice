@@ -35,17 +35,6 @@ public class HashSetDemo3 {
 		
 		//subset
 		System.out.println(set1.containsAll(set2));           //true
-
-		
-		
-
-
-
-
-
-
-
-
 	}
 
 }
