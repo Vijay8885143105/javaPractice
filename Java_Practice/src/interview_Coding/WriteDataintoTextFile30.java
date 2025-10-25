@@ -24,6 +24,7 @@ public class WriteDataintoTextFile30 {
 		bw.newLine();
 		System.out.println("Finished");
 		bw.close();
+		
 	}
 
 }

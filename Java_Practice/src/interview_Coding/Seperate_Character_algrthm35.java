@@ -3,7 +3,7 @@ public class Seperate_Character_algrthm35
 {
 	public static void main(String args[])
 	{
-		//String str="sumitMT28";
+		//String str="sumitMT35";
 		//StringBuilder is a class in Java that is used to create mutable sequences of characters
 		//StringBuilder objects to store different categories of characters
 		//new ::This keyword is used to create a new instance of a class. It allocates memory for the new object
@@ -36,7 +36,7 @@ public class Seperate_Character_algrthm35
 		System.out.println(digits);*/
 		
 		//Approach 2
-	     String str="sumitMT28";
+	     String str="sumitMT35";
 	     String str1=str.replaceAll("[^A-Z]","");
 	     System.out.println(str1);
 	          String str2=str.replaceAll("[^a-z]","");

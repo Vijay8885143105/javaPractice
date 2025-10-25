@@ -3,7 +3,7 @@ package interview_Coding;
 public class PrimeNumber11 {
 
 	public static void main(String[] args) {
-		int num=5;    //num is the number you want to check.
+		int num=11;    //num is the number you want to check.
 		int     count=0;	  //count is used to count the number of divisors of num.
 		if (num>1)     //Prime numbers are greater than 1.
 		{ 

@@ -1,6 +1,6 @@
 package interview_Coding;
 
-public class CountCharacterOccurance26 {
+public class SpcfcCharacterOccurance26 {
 
 	public static void main(String[] args) {
 		String  str="Vijay willing to learn english";

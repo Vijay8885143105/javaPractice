@@ -14,7 +14,8 @@ public class printWantedChar_42 {
             //Condition to Check Specific Characters:
             if (currentChar == 'n' || currentChar == 'i')       
             {
-            	//Appending Characters to Result\            	result = result + currentChar;      
+            	//Appending Characters to Result
+            	result = result + currentChar;      
             	}
         }
 

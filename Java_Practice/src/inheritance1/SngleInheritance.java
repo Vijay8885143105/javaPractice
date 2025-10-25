@@ -22,7 +22,7 @@ class B extends A  //through inheritance
 public class SngleInheritance{
 
 	public static void main(String[] args) {
-   /* A aobj=new A();
+   /*A aobj=new A();
     aobj.a=100;
     aobj.b=200;
     aobj.display();*/

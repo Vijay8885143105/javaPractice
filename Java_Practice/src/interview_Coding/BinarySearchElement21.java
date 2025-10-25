@@ -11,7 +11,7 @@ public class BinarySearchElement21 {
 		while (l<=h) {
 			int m=(l+h)/2;  //Calculate the middle index
 			if (a[m]==key) {    //Check if the middle element is the key
-				System.out.println("Element found");
+				System.out.println("Element found::"+key);
 				flag=true;
 				break;
 			}

@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class DepartmentMap40 {
 	public static void main(String[] args) {
+		//Basic, depid,2 ways for each loop
+		
 		/*Creating a HashMap to store department ID (Integer) and department name (String)
         HashMap<Integer, String> hm = new HashMap<>();
 
@@ -33,7 +35,7 @@ public class DepartmentMap40 {
         }*/
 
 
-		System.out.println("============================================");
+		System.out.println("=================================================================================================");
 
 		// Create a HashMap
 		HashMap<String, Integer> map = new HashMap<>();
@@ -53,9 +55,9 @@ public class DepartmentMap40 {
 			System.out.println("Key: " + key + ", Value: " + value);
 		}
 		
-		System.out.println("============================================");
+		System.out.println("=================================================================================================");
 
-		// Modify the value of an entry
+		// Modify the value of an entry 
 		for (Map.Entry<String, Integer> entry : map.entrySet()) {
 			if (entry.getKey().equals("Banana")) {
 				// Set a new value for the entry
@@ -70,7 +72,7 @@ public class DepartmentMap40 {
 		  {
 		      System.out.println(entry);
 		  }
-		System.out.println("============================================");
+		System.out.println("================================================================================================");
 		
 		HashMap<Integer,String> hm=new HashMap<>();
 		hm.put(100,"vijji");

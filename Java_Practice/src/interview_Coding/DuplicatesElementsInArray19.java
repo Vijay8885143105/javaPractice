@@ -17,7 +17,7 @@ public class DuplicatesElementsInArray19 {
 				if (arr[i].equals(arr[j]))
 				{
 					System.out.println("Duplicate element  found   ::::"+arr[i]);
-					flag=true;			 //Indicating a Duplicate Has Been Found:
+					flag=true;			 //Indicating a duplicate has been found:
 				}
 			}
 		}
