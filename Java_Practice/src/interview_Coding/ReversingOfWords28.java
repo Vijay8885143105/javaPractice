@@ -4,7 +4,7 @@ import java.util.*;
 public class ReversingOfWords28 {
 
 	public static void main(String[] args) {
-		        Scanner scr=new Scanner(System.in);
+		        Scanner scr=new Scanner(System.in);         //28 50
 		        System.out.println("Enter your words"); // welcome to java vijay
 		        //nextLine() reads the entire line of input entered by the user as a string.
 		        String input=scr.nextLine();

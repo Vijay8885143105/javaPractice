@@ -3,7 +3,7 @@ package interview_Coding;
 public class Prime_numbers_1_200between_49 {
 
 	public static void main(String[] args) {
-		// Loop through numbers from 2 to 100
+		// Loop through numbers from 2 to 100       //39 49
         for (int num = 2; num <= 100; num++) 
         {
             int count = 0;

@@ -2,7 +2,7 @@ package interview_Coding;
 
 public class Seperate_Characters35 {
     public static void main(String[] args) {
-        String input = "sumitM28";
+        String input = "sumitMT35";
         StringBuilder lowerCase = new StringBuilder();
         StringBuilder upperCase = new StringBuilder();
         StringBuilder numbers = new StringBuilder();
@@ -25,7 +25,7 @@ public class Seperate_Characters35 {
 
         // Output the results
         System.out.println(lowerCase.toString()); // sumit
-        System.out.println(upperCase.toString()); // M
-        System.out.println(numbers.toString());   // 28
+        System.out.println(upperCase.toString()); // MT
+        System.out.println(numbers.toString());   // 35
     }
 }

@@ -2,7 +2,7 @@ package interview_Coding;
 class Armstrong_Number39
 //Narcissistic number also
 {
-	// Method to check if a number is an Armstrong number
+	// Method to check if a number is an Armstrong number       //39 49
 	public static boolean isArmstrong(int num)
 	{
 		int org_num=num; // Original number to compare later
