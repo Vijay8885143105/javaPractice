@@ -16,8 +16,8 @@ public class FirstNonRepeatingChar_52  {
         System.out.println("No non-repeating character found");*/
 		
 		String str = "aabbcdde";
-        char chars[] = str.toCharArray();
-        for (char ch : chars) {
+        //char chars[] = str.toCharArray();
+        for (char ch : str.toCharArray()) {
             if (str.indexOf(ch) == str.lastIndexOf(ch)) {
                 System.out.println("First non-repeating character: " + ch);
                 return;

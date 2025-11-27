@@ -44,7 +44,7 @@ public class MaxAndMinElmntsinArray18 {
                 System.out.print("Enter the number of elements ");
                 int num = scr.nextInt();
                 System.out.println("Enter " + num + " numbers:");
-                for (int i = 0; i < num; i++) 
+                for (int i = 1; i <=num; i++) 
                 {
                     numbers.add(scr.nextInt());
                 }

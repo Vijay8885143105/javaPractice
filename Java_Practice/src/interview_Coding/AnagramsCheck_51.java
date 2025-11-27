@@ -1,9 +1,11 @@
 package interview_Coding;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class AnagramsCheck_51
 {
+	//Anagram means rearranging characters to form a new word.
+	//If two strings can be rearranged to look the same, they are anagrams.
     public static void main(String[] args) 
     {
         String str1 = "listen";
@@ -17,7 +19,7 @@ public class AnagramsCheck_51
         char a1[] = str1.toCharArray();
         char a2[]= str2.toCharArray();
 
-        // Sort both arrays
+        // sort both arrays
         Arrays.sort(a1);
         Arrays.sort(a2);
 
@@ -28,7 +30,7 @@ public class AnagramsCheck_51
         } 
         else 
         {
-            System.out.println("Strings are NOT Anagrams");
+            System.out.println("Strings are not Anagrams");
         }
     }
 }
