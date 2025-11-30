@@ -2,6 +2,7 @@ package interview_Coding;
 
 public class FirstNonRepeatingChar_52  {
 	public static void main(String[] args) {
+		//Unique elements in the array print
        /* String str = "aabbcdde";
 
         for (int i = 0; i < str.length(); i++) {
