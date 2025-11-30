@@ -18,8 +18,10 @@ public class FirstNonRepeatingChar_52  {
 		
 		String str = "aabbcdde";
         //char chars[] = str.toCharArray();
-        for (char ch : str.toCharArray()) {
-            if (str.indexOf(ch) == str.lastIndexOf(ch)) {
+        for (char ch : str.toCharArray())
+        {
+            if (str.indexOf(ch) == str.lastIndexOf(ch))
+            {
                 System.out.println("First non-repeating character: " + ch);
                 return;
             }

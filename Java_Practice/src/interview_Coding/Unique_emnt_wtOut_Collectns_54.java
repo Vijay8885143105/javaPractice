@@ -4,8 +4,8 @@ public class Unique_emnt_wtOut_Collectns_54 {
 	
 	    public static void main(String[] args) 
 	    {
-	    	//Removing duplicates without using HashSet
-	        /*int a[] = {22, 34, 56, 34, 32, 32};
+	    	//Remove the duplicates without using HashSet
+	       /* int a[] = {10, 20, 30, 30, 40, 40};
 	       for (int i = 0; i < a.length; i++)
 	        {
 	            boolean flag = true;   // assume element is unique
@@ -24,8 +24,9 @@ public class Unique_emnt_wtOut_Collectns_54 {
 	                System.out.println(a[i]);
 	            }
 	        }*/
+	    	    	
 	    	//Print the Unique elements in the array
-	        int a[] = {22, 34, 56, 34, 32, 32};
+	    	int a[] = {10, 20, 30, 30, 40, 40};
 	        System.out.println("Unique elements:");
 	        for (int i = 0; i < a.length; i++) {
 	            int count = 0;
