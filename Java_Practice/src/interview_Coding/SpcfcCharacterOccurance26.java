@@ -10,6 +10,10 @@ public class SpcfcCharacterOccurance26 {
 		int Total_Count_AfterRemove=str1.length();
 		System.out.println("Total length of the string after removing a::::::"+Total_Count_AfterRemove);
 		System.out.println("a will be repeated " +(Total_Count-Total_Count_AfterRemove)+"    times");
+		
+		//Replace the characters e,a with @ symbol
+		/*String str = "republic day celebrated in the January";
+		String result = str.replaceAll("[ea]", "@");
+		System.out.println(result);*/
 	}
-
 }
