@@ -5,6 +5,9 @@ import java.util.HashSet;
 public class DuplicatesElementsInArray19 {
 
 	public static void main(String[] args) {
+		//---->>>>>Find duplicate elements&remove duplicate elements through algorithm
+		//---->>>>>Find duplicate elements&remove duplicate elements through HashSet
+
 		//length is a property & length() is a method
 		/*String arr[]= {"java","Python","C","C#","java",".Net","Python"};
 		boolean flag=false;
