@@ -13,7 +13,7 @@ public class SortingElements23 {
        Arrays.sort(a);
        System.out.println("Arrays after sorting   "+Arrays.toString(a));*/
 
-		//Approach 2
+		//Approach 2         //Collections.reverseOrder() works only with objects, not with primitive types.
 		//Reverse Order
 		/*  Integer a1[]= {20,40,30,50,60,10};
        System.out.println("Arrays before sorting   "+Arrays.toString(a1));

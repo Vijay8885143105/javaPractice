@@ -14,8 +14,8 @@ public class PalindromeNumber4 {
 		int rev=0;
 		while(num!=0)
 		{
-			rev=rev*10+num%10;
-			num=num/10;
+			rev=rev*10+num%10;                         //num % 10 → gives the last digit
+			num=num/10;                                       //Remove the last digit
 		}
 		if(org_num==rev)
 		{

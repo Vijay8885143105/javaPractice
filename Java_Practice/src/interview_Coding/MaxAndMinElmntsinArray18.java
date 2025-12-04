@@ -40,17 +40,17 @@ public class MaxAndMinElmntsinArray18 {
 		System.out.println("============================================");
 
                 ArrayList<Integer> numbers = new ArrayList<>();
-                Scanner scr = new Scanner(System.in);
+                Scanner scr = new Scanner(System.in);                                                 //it dynamic input from the user
                 System.out.print("Enter the number of elements ");
                 int num = scr.nextInt();
                 System.out.println("Enter " + num + " numbers:");
-                for (int i = 1; i <=num; i++) 
+                for (int i = 1; i <=num; i++)   //A loop runs num times, scr.nextInt() reads each number, numbers.add() stores it in the ArrayList
                 {
                     numbers.add(scr.nextInt());
                 }
                 // Sort the dynamic array in ascending order
-                Collections.sort(numbers);
-                // The second largest element is at index size - 2 after sorting
+                Collections.sort(numbers);                                      //This sorts the list in ascending order (small → big). 
+                // The second largest element is at index size - 2 after sorting,      numbers.size() gives total count
                 System.out.println("Second largest number in the array is " + numbers.get(numbers.size() - 2));
                 scr.close();
             }

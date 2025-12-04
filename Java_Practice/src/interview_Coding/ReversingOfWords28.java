@@ -4,7 +4,8 @@ import java.util.*;
 public class ReversingOfWords28 {
 
 	public static void main(String[] args) {
-		Scanner scr=new Scanner(System.in);         //28 50
+		//**Reversing all the words in the string**//
+		Scanner scr=new Scanner(System.in);         //28 ,50
 		System.out.println("Enter your words"); // welcome to java vijay
 		//nextLine() reads the entire line of input entered by the user as a string.
 		String input=scr.nextLine();
@@ -27,13 +28,15 @@ public class ReversingOfWords28 {
 			rev_String=rev_String+rev_Word+" ";
 		}
 		System.out.println(rev_String); //emoclew ot avaj yajiv 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//**Reverse the middle word or wanted word in the given string**//    3 Differences only:: each , if, }
 
 		/* Scanner scr = new Scanner(System.in);
-        System.out.println("enter the string ");
-        String str = scr.nextLine();
-           String str1="automation";
-        String rev_str = "";
-        String words[] = str.split(" ");
+         System.out.println("enter the string ");
+         String str = scr.nextLine();
+        // String str1="automation";
+         String rev_str = "";
+         String words[] = str.split(" ");
 
         for (String each : words)
         {
@@ -48,11 +51,42 @@ public class ReversingOfWords28 {
                     rev_word = rev_word + each.charAt(i);
                 }
             }
-
             rev_str = rev_str + rev_word + " ";
         }
-
         System.out.println(rev_str);*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////		
+		//**Reverse the alternative words in the  given string **//
+
+		/*Scanner scr = new Scanner(System.in);        
+		System.out.println("Enter your words");       
+		String input = scr.nextLine();
+		//Split the input string into an array of words
+		String words[] = input.split(" "); 
+		System.out.println(Arrays.toString(words));  
+		String rev_String = "";
+
+		//Loop through each word in the array:
+		int index = 0;  // to check word positions
+		for (String each : words)
+		{
+		    String rev_Word = "";  //Initialize an empty string to hold the reversed word:
+		    // Reverse only alternative words (here: even indexed words → 0,2,4,..)
+		    if (index % 2 == 0)
+		    {
+		        for (int i = each.length() - 1; i >= 0; i--)
+		        {
+		            rev_Word = rev_Word + each.charAt(i);
+		        }
+		        rev_String = rev_String + rev_Word + " ";
+		    }
+		    else
+		    {
+		        // add as it is
+		        rev_String = rev_String + each + " ";
+		    }
+		    index++; // increment index for next word
+		}
+		System.out.println(rev_String);*/
 	}
 }
 
