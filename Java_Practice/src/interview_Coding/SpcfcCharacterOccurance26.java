@@ -15,5 +15,11 @@ public class SpcfcCharacterOccurance26 {
 		/*String str = "republic day celebrated in the January";
 		String result = str.replaceAll("[ea]", "@");
 		System.out.println(result);*/
+		
+		
+		
+		/* String str="we celebrate republic dayb in the month of january";
+	     String replace=str.replaceAll("[ra]","\\$");------------------>>>>>>>>>>>>>>>Difference is the \\
+	     System.out.println(replace);*/
 	}
 }

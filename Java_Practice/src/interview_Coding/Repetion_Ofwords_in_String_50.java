@@ -5,16 +5,16 @@ public class Repetion_Ofwords_in_String_50{
     public static void main(String[] args)
     {
     	        // Input string                                 //28   50  use input
-    	        String input = "This is a test. This test is simple and this test works.";
+    	        String input = "This is a test. This test is simple and this test works.";//---->>>>>>>Give space after .
 
     	        // Convert the string to lowercase so that "This" and "this" are counted as the same word
     	        input = input.toLowerCase();
 
     	        // Remove punctuation using regex (only keep letters and spaces)
-    	        input = input.replaceAll("[^a-z\\s]", "");
+    	        input = input.replaceAll("[^a-z\\s]", "");         //have to give space in java online compiler
 
     	        // Split the string into words using space as a separator
-    	        String words[] = input.split(" ");
+    	        String words[] = input.split(" ");                             
 
     	        // Create a HashMap to store word counts
     	        HashMap<String, Integer> wordCount = new HashMap<>();
