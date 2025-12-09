@@ -36,14 +36,14 @@ public class CountEvenAndOddDigits7 {
             }*/
 		
            //Print alternative even numbers                                                           
-		/*int a[]={1,2,3,4,5,6,7,8,9};
+		/*int a[]={1,2,3,4,5,6,7,8,9};    here is the 2 first index at 0 ,4 is the second  index at 1
         int count = 0;
         for(int num : a) {
             if(num % 2 == 0) {     // even number
                 if(count % 2 == 0) {  // print alternate even
                     System.out.println(num);                                 //2,6
                 }
-                count++;   // increase only when even
+                count++;   // increase only when even*
             }
         }*/
 	}
