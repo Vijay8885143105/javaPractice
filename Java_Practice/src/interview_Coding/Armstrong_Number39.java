@@ -23,7 +23,7 @@ class Armstrong_Number39
 		// Loop to check each number from 1 to 200
 		for(int num=1;num<=200;num++)
 		{
-			if(isArmstrong(num))
+			if(isArmstrong(num))                  //It checks whether the current number (num) is an Armstrong number.
 				System.out.println(num);   // Print the number if it is an Armstrong number
 		}
 	}

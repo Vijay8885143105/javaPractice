@@ -13,10 +13,10 @@ public class BubleSort22 {
 		for(int i=0;i<len-1;i++)      //Number of Passes 
 		{
 			for (int j = 0; j <len-1; j++) {  //Iterations in each pass
-				if (a[j]>a[j+1]) {
-					int temp=a[j];
-					a[j]=a[j+1];
-					a[j+1]=temp;
+				if (a[j]>a[j+1]) {                   //In each pass, this loop compares each element with its next element
+					int temp=a[j];                 //If the current element is greater, the code swaps them.
+					a[j]=a[j+1];                       //Now a[j] becomes equal to the next number.
+					a[j+1]=temp;                   //Put the stored (original) value into the next position
 				}
 			}	
 		}

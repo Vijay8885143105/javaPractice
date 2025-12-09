@@ -6,7 +6,7 @@ public class Prime_numbers_1_200between_49 {
 		// Loop through numbers from 2 to 100       //39 49
         for (int num = 2; num <= 100; num++) 
         {
-            int count = 0;
+            int count = 0;  //keep track of how many divisors the number (num) has.
 
             // Check how many divisors num has
             for (int i = 1; i <= num; i++)

@@ -11,16 +11,16 @@ public class CountTheWords27 {
 		System.out.println("Enter the words");
 		//reads the entire line of input from the user.
 		String str=scr.nextLine();
-		//int count = 1; initializes the word count to 1 (**assuming the string is non-empty**).
-		int count=1;
+		//int words = 1; initializes the word count to 1 (**assuming the string is non-empty**).
+		int words=1;
 		//Loop through each character of the string except the last one
 		for (int i = 0; i <str.length()-1;  i++) {
 			//Checks if the current character is a space and the next character is not a space
 			if ((str.charAt(i)==' ')&&( str.charAt(i+1)!=' ')) 
 			{
-				count++;
+				words++;
 			}
 		}
-		System.out.println("Number of word are::::::"+count);
+		System.out.println("Number of word are::::::"+words);
 	}
 }

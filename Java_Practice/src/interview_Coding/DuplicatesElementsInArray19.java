@@ -32,7 +32,7 @@ public class DuplicatesElementsInArray19 {
 		boolean flag=false;
 		HashSet<String> hs=new HashSet<>();
 		for (String d : arr) {
-			if (hs.add(d)==false) {
+			if (hs.add(d)==false) {     //the element was already present → it is a duplicate.
 				System.out.println("Duplicate element found :::"+d);
 				flag=true;
 			}
