@@ -17,5 +17,24 @@ public class NearestTO100Num_56 {
 	            }
 	              }
 	        System.out.println("Nearest number to 100 is: " + nearest);
+	        System.out.println("========================================================================================");
+	        //Using StringBuilder class
+	        
+	        /* String str="hello master 234567  vijji hello ra &^%$ ";
+        StringBuilder digits=new StringBuilder();
+        for(char ch: str.toCharArray())
+        {
+            if(Character.isDigit(ch))
+            {
+                digits.append(ch);
+            }
+        }
+        System.out.println(digits);*/
+	        
+	        //Using regex
+	        
+	        /* String str="hello master 234567  vijji hello ra &^%$ ";
+       String digits=str.replaceAll("[^0-9]","");
+       System.out.println(digits);*/
 	}
 }

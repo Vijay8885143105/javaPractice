@@ -11,7 +11,7 @@ public class Repetion_Ofwords_in_String_50{
     	        input = input.toLowerCase();
 
     	        // Remove punctuation using regex (only keep letters and spaces)
-    	        input = input.replaceAll("[^a-z\\s]", "");         //have to give space in java online compiler
+    	        input = input.replaceAll("[^a-z\\s]", "");        
 
     	        // Split the string into words using space as a separator
     	        String words[] = input.split(" ");                             
