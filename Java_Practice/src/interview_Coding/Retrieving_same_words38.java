@@ -9,5 +9,9 @@ public class Retrieving_same_words38
 		String str="an engineer is an engineer"; 
 		String output=str.replace("is","");
 		System.out.println(output);   //an engineer  an engineer
+		
+		/* String str="an engineer is an engineer";
+       String replace=str.replace("is","vijji");
+       System.out.println(replace);*/
 	}
 }
