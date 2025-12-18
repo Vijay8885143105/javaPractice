@@ -22,5 +22,23 @@ public class OtpFetchingFrmStrng_57 {
             System.out.println("OTP is: " + m.group());               //group() returns the matched text
         }
 	}
+	/*//Using StringBuilder class
+	        
+	        /* String str="hello master 234567  vijji hello ra &^%$ ";
+        StringBuilder digits=new StringBuilder();
+        for(char ch: str.toCharArray())
+        {
+            if(Character.isDigit(ch))
+            {
+                digits.append(ch);
+            }
+        }
+        System.out.println(digits);*/
+	        
+	        //Using regex
+	        
+	        /* String str="hello master 234567  vijji hello ra &^%$ ";
+       String digits=str.replaceAll("[^0-9]","");
+       System.out.println(digits);*/
 
 }
