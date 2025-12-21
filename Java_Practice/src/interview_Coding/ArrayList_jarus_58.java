@@ -15,8 +15,13 @@ public class ArrayList_jarus_58 {
 	        list.replaceAll(s -> s.replaceAll("T2", "jarus"));
 	        //s -> s.replaceAll("T2", "jarus") → Lambda expression:
 	        // For each element s, check if it matches "T2",  If yes, replace it with "jarus".
-
 	        System.out.println(list);
+	        
+	        
+	        /*ArrayList<Integer> list=new ArrayList<>(Arrays.asList(100,24,3,44,35));
+                                          Collections.sort(list);
+                                           System.out.println(list);*/
+    
 
 	}
 
