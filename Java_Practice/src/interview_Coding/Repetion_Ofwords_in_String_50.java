@@ -5,7 +5,7 @@ public class Repetion_Ofwords_in_String_50{
     public static void main(String[] args)
     {
     	        // Input string                                 //28   50  use input
-    	        String input = "This is a test. This test is simple and this test works.";//---->>>>>>>Give space after .
+    	        String input = "This is a test.This test is simple and this test works.";
 
     	        // Convert the string to lowercase so that "This" and "this" are counted as the same word
     	        input = input.toLowerCase();

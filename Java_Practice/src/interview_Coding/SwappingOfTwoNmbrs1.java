@@ -12,6 +12,8 @@ public class SwappingOfTwoNmbrs1 {
 		a=b;  //assigns the value of b to a
 		b=c;  //assigns the value stored in c
 		System.out.println("Numbers After Before Swapping      "+a+"   "+b); //20 10*/
+		
+		
 		// 2,Swapping of two numbers without using third variable
 		/*a=a+b; //30
 		b=a-b; //10
