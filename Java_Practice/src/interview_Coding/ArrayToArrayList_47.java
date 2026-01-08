@@ -9,8 +9,9 @@ package interview_Coding;
 	        {
 	            System.out.println(var);
 	        }
-	        ArrayList al=new ArrayList();
+	       // ArrayList al=new ArrayList();
 	        System.out.println(Arrays.asList(a));
+	        System.out.println(Arrays.toString(a));
 	    }
 	}
 
