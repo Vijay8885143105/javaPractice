@@ -22,25 +22,21 @@ public class SpcfcCharacterOccurance26 {
 		
 		
 		/* String str="we celebrate republic dayb in the month of january";
+		 * 
 	     String replace=str.replaceAll("[ra]","\\$");------------------>>>>>>>>>>>>>>>Difference is the \\
 	     System.out.println(replace);*/
 		
+		//Replace the "a" with @ and "w" with $
 		
-		//Replace the  w with x and y with z        (with replace method)
-		/*String str = "we celebrate republic day in the month of january";
-
-        String replace = str.replace('w', 'x')
-                            .replace('y', 'z');
-
-        System.out.println(replace);*/
+		/* String str="we celebrate republic day in the month of january";
+	        String replace=str.replace("a","@").replace("w","$");     
+	        System.out.println(replace);*/
 		
 		
 		//Replace the  w with x and y with z        (with replaceAll method)
+		
 		/*String str = "we celebrate republic day in the month of january";
-
-        String replace = str.replaceAll("w", "x")
-                            .replaceAll("y", "z");
-
+        String replace = str.replaceAll("w", "x") .replaceAll("y", "z");
         System.out.println(replace);*/
 	}
 }
