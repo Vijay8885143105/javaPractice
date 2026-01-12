@@ -20,8 +20,27 @@ public class SetToList_60 {
                                               set.add("Y");
 
              ArrayList<String> list = new ArrayList<>();
-                                                 list.addAll(set);
+                                                 list.addAll(set);*/
+
+		
+		/*ArrayList<String> list = new ArrayList<>();
+		list.add("A");
+		list.add("B");
+		list.add("A");  // duplicate
+
+		HashSet<String> set = new HashSet<>(list);
+		System.out.println(set);*/
+		
+		
+		//Using addAll method
+		/*ArrayList<Integer> list = new ArrayList<>();
+                                                 list.add(10);
+                                                 list.add(20);
+
+              HashSet<Integer> set = new HashSet<>();
+                                                    set.addAll(list);
 */
+
 	}
 
 }
