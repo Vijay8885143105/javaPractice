@@ -186,7 +186,7 @@ public class Selenium_Imp_Scripts_61 {
 		 */
 		System.out.println("=====================================================================================================");
 		//Check box collection
-		/*//Get collection of checkboxes
+		/*    //Checkboxes Text is inside attribute (hidden)  getAttribute("value")
 		List<WebElement>all_checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
 		System.out.println("Number of check boxes are:::"+all_checkboxes.size());
 		Thread.sleep(5000);
@@ -202,7 +202,7 @@ public class Selenium_Imp_Scripts_61 {
 		driver.quit();*/
 		System.out.println("=====================================================================================================");
 		//Get collection of Radio buttons
-		/*//get collection of radio buttons
+		/*     //Text is inside <div> (visible) getText()
 		List<WebElement>all_Radios = driver.findElements(By.xpath("//div[@class='radio_b']"));
 		System.out.println("Number of radio buttons are:::"+all_Radios.size());
 		for (WebElement each : all_Radios) {
@@ -210,7 +210,7 @@ public class Selenium_Imp_Scripts_61 {
 		}
 			driver.quit();*/
 
-		/*//collection of hyperlinks in page
+		/*     //collection of hyperlinks in page
 		List<WebElement>all_Links = dr.findElements(By.tagName("a"));
 		System.out.println("Number of Links are:::::::::"+all_Links.size());
 		for (WebElement each : all_Links) {

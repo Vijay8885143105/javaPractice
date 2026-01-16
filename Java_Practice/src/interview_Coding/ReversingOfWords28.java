@@ -29,7 +29,7 @@ public class ReversingOfWords28 {
 		}
 		System.out.println(rev_String); //emoclew ot avaj yajiv 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		//**Reverse the middle word or wanted word in the given string**//    3 Differences only:: each , if, }
+		//**Reverse the middle word or wanted word in the given string**//    4 Differences only:: each , if, }
 
 		/* Scanner scr = new Scanner(System.in);
          System.out.println("enter the string ");
