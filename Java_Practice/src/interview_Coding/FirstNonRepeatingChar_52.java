@@ -27,6 +27,26 @@ public class FirstNonRepeatingChar_52  {
             }
         }
         System.out.println("No non-repeating character found");
+        
+        
+        
+        //Second non -repetitive character found
+        
+        /*String str = "aabbcddeeffghh";
+              int uniqueCount = 0;
+
+        for (char ch : str.toCharArray()) {
+
+            if (str.indexOf(ch) == str.lastIndexOf(ch)) {
+                uniqueCount++;
+
+                if (uniqueCount == 2) {
+                    System.out.println("Second non-repeating character is: " + ch);
+                    return;
+                }
+            }
+        }
+        System.out.println("Second non-repeating character not found");*/
     }
     }
 
