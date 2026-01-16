@@ -1,5 +1,7 @@
 package interview_Coding;
 
+import java.util.List;
+
 public class Selenium_Imp_Scripts_61 {
 
 	public static void main(String[] args) {
@@ -44,7 +46,7 @@ public class Selenium_Imp_Scripts_61 {
 	        }
 	        driver.quit();*/
 
-System.out.println("================================================================================================");
+		System.out.println("================================================================================================");
 
 		/*How do you handle multiple windows in Selenium using Set and switch to a ((specific window)) based on its title?
 
@@ -94,31 +96,31 @@ System.out.println("============================================================
         // 8. Close browser
         driver.quit();
 		 */
-System.out.println("=====================================================================================================");
-       //How do you handle ((multiple child windows)) in Selenium and switch back to the parent window?
+		System.out.println("=====================================================================================================");
+		//How do you handle ((multiple child windows)) in Selenium and switch back to the parent window?
 
 		/*WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://gmail.com");
 		Thread.sleep(5000);
-		
+
 		//get gmail window id
 		String parent = driver.getWindowHandle();
 		System.out.println(parent);
-		
+
 		//click three links to open tabs
 		driver.findElement(By.linkText("Help")).click();
 		driver.findElement(By.linkText("Privacy")).click();
 		driver.findElement(By.linkText("Terms")).click();
-		
+
 		//get collection of all windows id
 		Set<String> allwins = driver.getWindowHandles();
 		System.out.println(allwins);
-		
+
 		//Iterate all windows
 		for (String each : allwins) {
-		
+
 			//parent id should not equal to each id
 			if (!parent.equals(each)) {
 				//switch to each child window
@@ -134,6 +136,108 @@ System.out.println("============================================================
 		driver.findElement(By.name("identifier")).sendKeys("pranga2010");
 		Thread.sleep(5000);
 		driver.quit();*/
+		System.out.println("=====================================================================================================");
+
+		//Counting items in the listbox  OR Handling ((Dropdown OR ListBox))
+		/*WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		//launch url
+		driver.get("https://amazon.in");
+		Thread.sleep(5000);
+		Select listbox = new Select(driver.findElement(By.id("searchDropdownBox")));
+		//get collection of items
+		List<WebElement> All_Items = listbox.getOptions();
+		System.out.println("Number of items are::"+All_Items.size());
+		for (WebElement each : All_Items) {
+			Thread.sleep(5000);
+			System.out.println(each.getText());
+
+		}
+	       Thread.sleep(5000);
+	       driver.quit();*/
+		System.out.println("=====================================================================================================");
+		//Handling list box in facebook app
+
+		/* WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		//launch url
+		driver.navigate().to("https://www.facebook.com/");
+		//suspend tool for 5 seconds
+		Thread.sleep(5000);
+		driver.findElement(By.linkText("Create new account")).click();
+		Thread.sleep(1000);
+		//Store day,month,year listbox into select
+		Select daylist = new Select(driver.findElement(By.name("birthday_day")));
+		Select monthlist = new Select(driver.findElement(By.name("birthday_month")));
+		Select year = new Select(driver.findElement(By.name("birthday_year")));
+		//verify listbox is single or multiple 
+        boolean value = monthlist.isMultiple();
+        System.out.println(value);
+        //select items in three list box using select methods
+        daylist.selectByVisibleText("5");
+        Thread.sleep(5000);
+        monthlist.selectByIndex(5);
+        Thread.sleep(5000);
+        year.selectByVisibleText("1994");
+        Thread.sleep(5000);
+        driver.quit();
+		 */
+		System.out.println("=====================================================================================================");
+		//Check box collection
+		/*//Get collection of checkboxes
+		List<WebElement>all_checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
+		System.out.println("Number of check boxes are:::"+all_checkboxes.size());
+		Thread.sleep(5000);
+		for (WebElement each : all_checkboxes) {
+			//verify which check box is true or false
+			boolean value = each.isSelected();
+			//capture each check box name
+			String checkbox_Name =each.getAttribute("value");
+			System.out.println(checkbox_Name+"    "+value);
+			each.click();
+		}
+		Thread.sleep(5000);
+		driver.quit();*/
+		System.out.println("=====================================================================================================");
+		//Get collection of Radio buttons
+		/*//get collection of radio buttons
+		List<WebElement>all_Radios = driver.findElements(By.xpath("//div[@class='radio_b']"));
+		System.out.println("Number of radio buttons are:::"+all_Radios.size());
+		for (WebElement each : all_Radios) {
+			System.out.println(each.getText());
+		}
+			driver.quit();*/
+
+		/*//collection of hyperlinks in page
+		List<WebElement>all_Links = dr.findElements(By.tagName("a"));
+		System.out.println("Number of Links are:::::::::"+all_Links.size());
+		for (WebElement each : all_Links) {
+			System.out.println(each.getText());
+		}*/
+		System.out.println("=====================================================================================================");
+		//Print weekends only using switch case statement
+		/*int key=5;
+		switch (key) {
+		case 1:System.out.println("Monday");			break;
+		case 2:System.out.println("Tuseday");			break;
+		case 3:System.out.println("Wednesday");			break;
+		case 4:System.out.println("Thursday");			break;
+		case 5:System.out.println("Friday");			break;
+		case 6:System.out.println("Saturday");			break;
+		default:System.out.println("Sunday");break;
+
+		}
+		if (key>5) {
+			System.out.println("Weekend");
+		}
+		else 
+		{
+			System.out.println("WeekDay");
+	}
+		 */
+		System.out.println("=====================================================================================================");
 
 
 	}
