@@ -33,16 +33,16 @@ public class FirstNonRepeatingChar_52  {
         //Second non -repetitive character found
         
         /*String str = "aabbcddeeffghh";
-              int uniqueCount = 0;
+              int uniqueCount = 0;  //             👉 This variable counts how many non-repeated characters we have found so far.
 
-        for (char ch : str.toCharArray()) {
+        for (char ch : str.toCharArray()) {    //Converts the string into a character array and loops through each character one by one.
 
-            if (str.indexOf(ch) == str.lastIndexOf(ch)) {
-                uniqueCount++;
-
+            if (str.indexOf(ch) == str.lastIndexOf(ch)) {      //👉 This checks whether the character appears only once in the entire string.
+      uniqueCount++; //If ch unique,increase count  //indexOf(ch) → first occurrence position,lastIndexOf(ch) → last occurrence position
+                                                                                                  //If both are equal → character is unique.
                 if (uniqueCount == 2) {
                     System.out.println("Second non-repeating character is: " + ch);
-                    return;
+                    return; //Stops the program immediately after finding the second unique character.
                 }
             }
         }
