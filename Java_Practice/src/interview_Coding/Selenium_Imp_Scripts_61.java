@@ -229,7 +229,7 @@ public class Selenium_Imp_Scripts_61 {
 		default:System.out.println("Sunday");break;
 
 		}
-		if (key>5) {
+		if (key==6||key==7) {
 			System.out.println("Weekend");
 		}
 		else 
