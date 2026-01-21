@@ -53,6 +53,25 @@ public class MaxAndMinElmntsinArray18 {
                 // The second largest element is at index size - 2 after sorting,      numbers.size() gives total count
                 System.out.println("Second largest number in the array is " + numbers.get(numbers.size() - 2));
                 scr.close();
+        		System.out.println("============================================");
+        		
+        		//Find the maximum length of the word in the string array
+                String words[] = {"java", "automation", "api", "selenium"};
+
+                // Initialize maxWord with first element
+                String maxWord = words[0];
+
+                // Loop starts from second element
+                for(int i = 1; i < words.length; i++)
+                {
+                    if(words[i].length() > maxWord.length())
+                    {
+                        maxWord = words[i];
+                    }
+                }
+
+                System.out.println("Maximum length word in array is: " + maxWord);
+
             }
 	}
 
