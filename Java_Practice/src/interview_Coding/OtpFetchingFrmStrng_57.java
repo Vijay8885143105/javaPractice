@@ -14,7 +14,7 @@ public class OtpFetchingFrmStrng_57 {
 		//Pattern defines the OTP format, Matcher scans the string, find() locates the match, and group() returns the extracted OTP.
 		
 		String str = "hello masti 143vijii56 and graduate from bits765";
-		//One or more digits (143)  , One or more letters (vijii) , One or more digits (56)  , So it matches:::numbers + letters + numbers
+		//One or more digits (143)  , One or more letters (vijii) , One or more digits (56)  , So it matches:::(numbers + letters + numbers)
         Pattern p = Pattern.compile("\\d+[a-zA-Z]+\\d+");       //This line defines what OTP looks like.
         Matcher m = p.matcher(str);                                                 // Small m      //Create Matcher Object, Matcher scans the string
 

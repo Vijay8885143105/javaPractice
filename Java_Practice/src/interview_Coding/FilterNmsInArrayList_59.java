@@ -10,7 +10,7 @@ public class FilterNmsInArrayList_59 {
                 Arrays.asList("Anil", "Ravi", "Ajay", "Suresh", "Arjun", "Bhanu")
         );
 
-        names.stream()
+              names.stream()
              .filter(name -> name.startsWith("A"))  // starts with A
              .sorted()                              // sort alphabetically
              .forEach(System.out::println);         // print result

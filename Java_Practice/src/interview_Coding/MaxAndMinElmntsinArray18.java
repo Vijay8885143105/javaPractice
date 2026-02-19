@@ -29,7 +29,7 @@ public class MaxAndMinElmntsinArray18 {
 			}
 		}
 		System.out.println("Maximum number in Array is  "+max);
-		System.out.println("============================================");
+		System.out.println("===============================================================================================");
 		int a1[] = {10, 20, 30, 40, 50, 60, 70};
 
         // Sort the array in ascending order
@@ -37,7 +37,7 @@ public class MaxAndMinElmntsinArray18 {
 
         // The second largest element is at index n-2
         System.out.println("Second largest number in the array is " + a1[a1.length - 2]);
-		System.out.println("============================================");
+		System.out.println("================================================================================================");
 
                 ArrayList<Integer> numbers = new ArrayList<>();
                 Scanner scr = new Scanner(System.in);                                                 //it dynamic input from the user
@@ -53,7 +53,7 @@ public class MaxAndMinElmntsinArray18 {
                 // The second largest element is at index size - 2 after sorting,      numbers.size() gives total count
                 System.out.println("Second largest number in the array is " + numbers.get(numbers.size() - 2));
                 scr.close();
-        		System.out.println("============================================");
+        		System.out.println("===========================================================================================");
         		
         		//Find the maximum length of the word in the string array
                 String words[] = {"java", "automation", "api", "selenium"};
