@@ -10,7 +10,7 @@ public class Selenium_Imp_Scripts_61 {
 		/*WebDriver driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://flights.com");   // change URL
-
+              driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	        // Find all anchor tags
 	        List<WebElement> links = driver.findElements(By.tagName("a"));
 	        System.out.println("Total links found: " + links.size());
@@ -55,7 +55,7 @@ public class Selenium_Imp_Scripts_61 {
         driver.manage().window().maximize();
         driver.get("https://gmail.com");
 
-        Thread.sleep(5000);   // wait for page load
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));  // wait for page load
 
         // 2. Store parent window
         String parentWindow = driver.getWindowHandle();
@@ -66,7 +66,7 @@ public class Selenium_Imp_Scripts_61 {
         driver.findElement(By.linkText("Privacy")).click();
         driver.findElement(By.linkText("Terms")).click();
 
-        Thread.sleep(5000);   // wait for windows to open
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));   // wait for windows to open
 
         // 4. Get all window handles
         Set<String> windows = driver.getWindowHandles();
@@ -82,7 +82,7 @@ public class Selenium_Imp_Scripts_61 {
             }
         }
 
-        Thread.sleep(3000);   // just to observe
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));   // just to observe
 
         // 6. Perform any action (example print title)
         System.out.println("Current Window Title: " + driver.getTitle());
@@ -91,7 +91,7 @@ public class Selenium_Imp_Scripts_61 {
         driver.switchTo().window(parentWindow);
         System.out.println("Back to Parent Window");
 
-        Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         // 8. Close browser
         driver.quit();
@@ -103,7 +103,7 @@ public class Selenium_Imp_Scripts_61 {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://gmail.com");
-		Thread.sleep(5000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		//get gmail window id
 		String parent = driver.getWindowHandle();
@@ -144,7 +144,7 @@ public class Selenium_Imp_Scripts_61 {
 		driver.manage().deleteAllCookies();
 		//launch url
 		driver.get("https://amazon.in");
-		Thread.sleep(5000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		Select listbox = new Select(driver.findElement(By.id("searchDropdownBox")));
 		//get collection of items
 		List<WebElement> All_Items = listbox.getOptions();
@@ -165,9 +165,9 @@ public class Selenium_Imp_Scripts_61 {
 		//launch url
 		driver.navigate().to("https://www.facebook.com/");
 		//suspend tool for 5 seconds
-		Thread.sleep(5000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.findElement(By.linkText("Create new account")).click();
-		Thread.sleep(1000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		//Store day,month,year listbox into select
 		Select daylist = new Select(driver.findElement(By.name("birthday_day")));
 		Select monthlist = new Select(driver.findElement(By.name("birthday_month")));
@@ -177,11 +177,11 @@ public class Selenium_Imp_Scripts_61 {
         System.out.println(value);
         //select items in three list box using select methods
         daylist.selectByVisibleText("5");
-        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         monthlist.selectByIndex(5);
-        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         year.selectByVisibleText("1994");
-        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.quit();
 		 */
 		System.out.println("=====================================================================================================");
@@ -189,7 +189,7 @@ public class Selenium_Imp_Scripts_61 {
 		/*    //Checkboxes Text is inside attribute (hidden)  getAttribute("value")
 		List<WebElement>all_checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
 		System.out.println("Number of check boxes are:::"+all_checkboxes.size());
-		Thread.sleep(5000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		for (WebElement each : all_checkboxes) {
 			//verify which check box is true or false
 			boolean value = each.isSelected();
@@ -198,7 +198,7 @@ public class Selenium_Imp_Scripts_61 {
 			System.out.println(checkbox_Name+"    "+value);
 			each.click();
 		}
-		Thread.sleep(5000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.quit();*/
 		System.out.println("=====================================================================================================");
 		//Get collection of Radio buttons
