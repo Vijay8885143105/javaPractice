@@ -40,5 +40,23 @@ public class OtpFetchingFrmStrng_57 {
 	        /* String str="hello master 234567  vijji hello ra &^%$ ";
        String digits=str.replaceAll("[^0-9]","");
        System.out.println(digits);*/
+//(====================================================================================================================);
+	
+	//Print the Current date 
+	
+	/*import java.util.*;
+import java.text.SimpleDateFormat;
+public class Main
+{
+    public static void main(String args[])
+    {
+        Date date=new Date();
+        SimpleDateFormat df=new SimpleDateFormat("dd--MM-yyyy");
+        String dateFormat=df.format(date);
+        System.out.println(dateFormat);
+    }
+}*/
+	
+	
 
 }
