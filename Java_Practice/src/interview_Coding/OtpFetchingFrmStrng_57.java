@@ -48,10 +48,10 @@ public class OtpFetchingFrmStrng_57 {
 import java.text.SimpleDateFormat;
 public class Main
 {
-    public static void main(String args[])
+    public static void main(String args[])       
     {
-        Date date=new Date();
-        SimpleDateFormat df=new SimpleDateFormat("dd--MM-yyyy");
+        Date date=new Date(); 
+        SimpleDateFormat df=new SimpleDateFormat("dd--MM-yyyy");            //SimpleDateFormat is a class.
         String dateFormat=df.format(date);
         System.out.println(dateFormat);
     }
