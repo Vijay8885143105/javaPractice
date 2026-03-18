@@ -7,8 +7,8 @@ public class SwappingOfTwoNmbrs1 {
 		int a=10;
 		int b=20;
 		/*int c;     //declares a temporary variable c
-		System.out.println("Numbers Before Swapping      "+a+"   "+b); //10 20
-		c=a;   //stores the value of a in c.
+		System.out.println("Numbers Before Swapping      "+a+"   "+b); //10  20
+		c=a;   //stores the value of a in c
 		a=b;  //assigns the value of b to a
 		b=c;  //assigns the value stored in c
 		System.out.println("Numbers After Before Swapping      "+a+"   "+b); //20 10*/

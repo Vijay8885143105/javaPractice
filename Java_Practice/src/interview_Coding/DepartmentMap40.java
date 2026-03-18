@@ -19,7 +19,7 @@ public class DepartmentMap40 {
 
         //Displaying all department IDs and names
         System.out.println("Department ID and Names:");
-        for (Integer id : hm.keySet()) {
+       //*  for (Integer id : hm.keySet()) {
             System.out.println("ID: " + id + ", Name: " + hm.get(id));
         }
 
