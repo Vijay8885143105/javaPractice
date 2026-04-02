@@ -14,7 +14,7 @@ public class Fifth_Most_PplrURL {
             URL url = new URL(fileUrl);
 
             // Step 3: Open a stream to read data from the URL
-            BufferedReader br = new BufferedReader(              //BufferedReader → reads the file line by line efficiently.
+            BufferedReader br = new BufferedReader(//Actual object(or) Creating object from that class  //BufferedReader → reads the file line by line efficiently.
                     new InputStreamReader(url.openStream())    //InputStreamReader → converts bytes to characters.
             );                                                                                               //url.openStream() → opens a connection to the URL and returns a stream of bytes.
 

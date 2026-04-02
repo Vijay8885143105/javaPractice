@@ -21,7 +21,7 @@ public class Third_TheMstSpndr {
             // Store product count for each user
             Map<Integer, Integer> productCount = new HashMap<>(); //Key → userId,  Value → number of products
 
-            String line;
+            String line; //variable to store each line
            //Reading Each Line
             while ((line = br.readLine()) != null) {  //Reads file line-by-line until EOF (end of file).
                 String  parts[] = line.split(",");           //Splits each line using comma ,  Example:: Date, userId, productName, $price
@@ -38,7 +38,7 @@ public class Third_TheMstSpndr {
             }
 
             // Find user who spent the most  (or) Initialize variables to track highest spender.
-            int maxUser = -1;
+            int maxUser = -1;    //It means “no user found yet”   ,Safe because user IDs are positive
             double maxAmount = 0;
 
             for (int user : totalSpent.keySet()) {            //Loop through all users.
