@@ -8,12 +8,12 @@ public class Fourth_Max_RainCty {
     	// Step 1: Open file for reading
         BufferedReader br = new BufferedReader(new FileReader("data.txt"));
 
-        String line;          // To store each line
+        String line;          // variable to store each line
         int maxRain = 0;      // To store highest rainfall
         String maxCity = "";  // To store city with highest rainfall
 
         // Step 2: Read file line by line
-        while ((line = br.readLine()) != null) {
+        while ((line = br.readLine()) != null) { //readLine returns the null if no lines in the text
 
             // Step 3: Split line using comma
             String parts[] = line.split(",");

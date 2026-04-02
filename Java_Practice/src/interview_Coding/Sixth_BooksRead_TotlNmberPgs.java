@@ -42,7 +42,7 @@ public class Sixth_BooksRead_TotlNmberPgs {
                  new InputStreamReader(url.openStream())
          )) {
 
-             String line;
+             String line;  //variable to store the each line
 
              // Step 5: Read file line by line
              while ((line = br.readLine()) != null) {
