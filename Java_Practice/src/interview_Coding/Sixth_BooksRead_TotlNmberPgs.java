@@ -28,8 +28,8 @@ public class Sixth_BooksRead_TotlNmberPgs {
          String fileUrl = "https://example.com/data.csv";   //👉 This is the location of the CSV file on the internet.
 
          // Step 2: Convert String → URI → URL (modern Java approach)
-         URI uri = new URI(fileUrl);    //👉 Converts string → URI → URL to access the file.
-         URL url = uri.toURL();
+         URI uri = new URI(fileUrl);    //👉 Converts string → URI → URL to access the file, URI is a class from the Java standard library (java.net.URI).
+         URL url = uri.toURL(); //new is used to create an object, URI(fileUrl) is a constructor of the URI class.
 
          // Step 3: Create a HashMap
          // Key = userId

@@ -3,7 +3,7 @@ package interview_Coding;
 public class Seperate_Characters35 {
     public static void main(String[] args) {
         String input = "sumitMT35";
-        StringBuilder lowerCase = new StringBuilder();
+        StringBuilder lowerCase = new StringBuilder(); 
         StringBuilder upperCase = new StringBuilder();
         StringBuilder numbers = new StringBuilder();
 

@@ -20,7 +20,7 @@ class T_Equilateral_Pattern34{
             }
             System.out.println();  //moves to the next line after each row is printed.
         } 
-        System.out.println("-------------------------------------------------------------------------------");
+        System.out.println("=========================================================================");
         for(int i=0;i<=4;i++)
         {
             for(int j=0;j<=i;j++)

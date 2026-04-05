@@ -23,12 +23,12 @@ public class FirstNonRepeatingChar_52  {
             if (str.indexOf(ch) == str.lastIndexOf(ch))
             {
                 System.out.println("First non-repeating character: " + ch);
-                return;
+                return;  //We found what we needed — stop everything and exit now, return; stops the loop AND exits the method entirely
             }
         }
         System.out.println("No non-repeating character found");
         
-        
+      System.out.println("===========================================================================================");
         
         //Second non -repetitive character found
         

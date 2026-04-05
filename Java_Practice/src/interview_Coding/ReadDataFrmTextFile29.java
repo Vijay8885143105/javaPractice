@@ -17,7 +17,7 @@ public class ReadDataFrmTextFile29 {
 		/*FileReader fr=new FileReader("D:\\VijayTexton25thoctober.text");
 		BufferedReader br=new BufferedReader(fr);
 		String str;
-		while ((str=br.readLine())!=null) {
+		while ((str=br.readLine())!=null) {  //readLine returns null if there no more lines  ,efficiently read line by line
 			System.out.println(str);
 		}
 		br.close();*/

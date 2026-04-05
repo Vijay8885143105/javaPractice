@@ -2,7 +2,7 @@ package interview_Coding;
 
 public class SplitMethod_43 {
     public static void main(String[] args) {
-        String str = "I love swetha";
+        String str = "I love swetha from tamilnadu";
         
         // Split the string into words
         String words[] = str.split(" ");
