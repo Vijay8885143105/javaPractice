@@ -52,9 +52,10 @@ public class SetToList_60 {
 
         // Simple merging (no loops)                                                                                   //import java.util.stream.IntStream;
         int result[] = IntStream.concat(Arrays.stream(a1), Arrays.stream(a2))   //Arrays.stream(a1) → converts array to stream
-                                .toArray();                                                                                               //Arrays.stream(a2) → converts second array
-                                 .sorted()   // <-- this is the key change                               //IntStream.concat() → joins both streams
-        System.out.println("Merged array: " + Arrays.toString(result));             //IntStream is an interface in Java Stream API used to handle sequences of primitive int values efficiently.
+                                                                                                                                                   //Arrays.stream(a2) → converts second array
+                                 .sorted()   // <-- this is the key change                                        //IntStream.concat() → joins both streams
+                                 .toArray();
+        System.out.println("Merged array: " + Arrays.toString(result));              //IntStream is an interface in Java Stream API used to handle sequences of primitive int values efficiently.
     }                             
 }*/
 		System.out.println("=================================================================================================");
