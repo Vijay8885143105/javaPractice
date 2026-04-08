@@ -24,14 +24,14 @@ public class Unique_emnt_wtOut_Collectns_54 {
 	                System.out.println(a[i]);
 	            }
 	        }*/
-	    	    	
+	  System.out.println("=================================================================================================================="); 	
 	    	//Print the Unique elements in the array
 	    	int a[] = {10, 20, 30, 30, 40, 40};
 	        System.out.println("Unique elements:");
-	        for (int i = 0; i < a.length; i++) {                           //Outer loop (pick each element)
+	        for (int i = 0; i < a.length; i++) {                           //Outer loop (pick each element)*
 	            int count = 0;
 	            // count how many times a[i] appears
-	            for (int j = 0; j < a.length; j++)                       //Inner loop (compare with all elements)
+	            for (int j = 0; j < a.length; j++)                       //Inner loop (compare with all elements)*
 	            {
 	                if (a[i] == a[j]) {
 	                    count++;
