@@ -6,6 +6,7 @@ public class GenrerateRndmNmrsAndStrngs12 {
 
 	public static void main(String[] args) {
 		//Approach 1
+		//new is a keyword in Java used to create (instantiate) an object.
 		Random rand=new Random();      //Random is a class
 		//Generates a random integer between 0 and 998.
 		//generates a random integer between 0 (inclusive) and 999 (exclusive).

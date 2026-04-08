@@ -7,7 +7,7 @@ public class CountSumOfDigits8 {
 		int 	sum=0;
 		// Loop to extract and add each digit of num to sum
 		while (num>0) {
-			sum=sum+num%10;  // Add the last digit of num to sum
+			sum=sum+num%10;  // extract the digit & Add the last digit of num to sum
 			num=num/10;             //Remove the last digit from num
 			//The loop exits because num is now 0. 
 		}

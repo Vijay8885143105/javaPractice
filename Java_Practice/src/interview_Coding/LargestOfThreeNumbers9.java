@@ -7,6 +7,8 @@ public class LargestOfThreeNumbers9 {
 	public static void main(String[] args) {
 		//new Scanner(...) is the constructor of the Scanner class.
 		//System.in is an input stream that is connected to the keyboard (standard input).
+		//new is a keyword in Java used to create (instantiate) an object.
+		//Scanner is the class
 		Scanner scr=new Scanner(System.in);
 		System.out.println("Enter First number");
 		int a=scr.nextInt();

@@ -21,7 +21,7 @@ public class ReverseString3 {
 		}
 		System.out.println(rev); //FEDCBA
 		
-		//Using StringBuffer Class
+		//Using StringBuffer Class  //StringBuffer used to create and modify strings efficiently.
 		/*StringBuffer sb=new StringBuffer(str);
 		StringBuffer reverse=sb.reverse();
 		System.out.println(reverse);  //FEDCBA*/

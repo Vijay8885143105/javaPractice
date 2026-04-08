@@ -6,8 +6,10 @@ public class ReversingNumber2 {
 
 	public static void main(String[] args) {
 		//creates a Scanner object to read input from the user.
-		Scanner scr=new Scanner(System.in);    //System.in is the argument
-		System.out.println("Enter a number");
+		//new is a keyword in Java used to create (instantiate) an object.
+		//Scanner is the class
+		Scanner scr=new Scanner(System.in);       //System.in is the argument
+		System.out.println("Enter a number");    //new Scanner(...) is the constructor of the Scanner class.
 		//reads the integer entered by the user and stores it in the variable num.
 		int num=scr.nextInt(); //It is used to read the next integer value from the input. 
 		//By  using algorithm
@@ -17,13 +19,13 @@ public class ReversingNumber2 {
 			num=num/10;			      //removes the last digit from num
 		}
 
-		/*Using StringBuffer class
+		/*Using StringBuffer class     //StringBuffer used to create and modify strings efficiently.
 		 //Convert the number to a StringBuffer
 		StringBuffer sb=new StringBuffer(String.valueOf(num));
 		StringBuffer rev=sb.reverse();        // Reverse the contents of the StringBuffer
 		System.out.println(rev);*/
 
-		/*Using stringBuilder Class
+		/*Using stringBuilder Class  //StringBuffer used to create and modify strings efficiently.
 		 //creates a StringBuilder object sb1.
 		StringBuilder sb1=new StringBuilder();
 		//converts the integer num to a string and appends it to the StringBuilder object sb1.

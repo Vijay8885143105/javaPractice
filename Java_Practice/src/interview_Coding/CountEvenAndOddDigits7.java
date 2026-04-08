@@ -7,7 +7,7 @@ public class CountEvenAndOddDigits7 {
 		int   even_count=0;
 		int odd_count=0;
 		while (num>0) {
-			int	rem=num%10;
+			int	rem=num%10;  //extracts the last digit from the number
 			if (rem%2==0) {
 				even_count++;
 			}
@@ -34,7 +34,7 @@ public class CountEvenAndOddDigits7 {
                count++;
            }       
             }*/
-		
+ System.out.println("========================================================================================================");
            //Print alternative even numbers                                                           
 		/*int a[]={1,2,3,4,5,6,7,8,9};    here is the 2 first index at 0 ,4 is the second  index at 1
         int count = 0;
