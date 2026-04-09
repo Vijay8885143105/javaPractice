@@ -33,7 +33,7 @@ public class ReadDataFrmTextFile29 {
 		//Approach 3
 		File f=new File("D:\\VijayTexton25thoctober.text");
 		Scanner scr=new Scanner(f);
-		scr.useDelimiter("\\d");
+		scr.useDelimiter("\\d");     //useDelimiter() is a method.
 		System.out.println(scr.next());
 	}
 }

@@ -1,6 +1,6 @@
 package interview_Coding;
 class Armstrong_Number39
-//Narcissistic number also
+//Narcissistic number also     //A number is the equals to sum of cubes of its own digits
 {
 	// Method to check if a number is an Armstrong number       //39 49
 	public static boolean isArmstrong(int num)

@@ -25,7 +25,7 @@ public class ReversingNumber2 {
 		StringBuffer rev=sb.reverse();        // Reverse the contents of the StringBuffer
 		System.out.println(rev);*/
 
-		/*Using stringBuilder Class  //StringBuffer used to create and modify strings efficiently.
+		/*Using stringBuilder Class  //stringBuilder used to create and modify strings efficiently.
 		 //creates a StringBuilder object sb1.
 		StringBuilder sb1=new StringBuilder();
 		//converts the integer num to a string and appends it to the StringBuilder object sb1.

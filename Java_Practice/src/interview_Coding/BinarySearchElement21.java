@@ -12,7 +12,7 @@ public class BinarySearchElement21 {
 			int m=(l+h)/2;  //Calculate the middle index
 			if (a[m]==key) {    //Check if the middle element is the key
 				System.out.println("Element found::"+key);
-				flag=true;
+				flag=true;    //means element found
 				break;
 			}
 			//If the middle element is less than the key, search in the right half
@@ -24,7 +24,7 @@ public class BinarySearchElement21 {
 				h=m-1;
 			}
 		}
-		if (flag==false) {
+		if (flag==false) { //No element is found during the iterations
 			System.out.println("Element not found");
 		}
 	}

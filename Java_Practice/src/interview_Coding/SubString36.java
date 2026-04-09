@@ -8,7 +8,7 @@ public class SubString36{
 		String str1=str.substring(18,25);
 		System.out.println(str1);*/
 		String str="I love my india";
-		String words[]=str.split(" ");
+		String words[]=str.split(" ");    //split the string by using space as the separator
 		System.out.println(words[3]);
 	}
 }

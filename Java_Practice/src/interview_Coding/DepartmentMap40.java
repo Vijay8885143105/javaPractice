@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class DepartmentMap40 {
 	public static void main(String[] args) {
-		//Basic,   depid    , 2 ways for each loop ,Modify    //5 types only=Total
+		//Basic,   depid    , 2 ways for each loop , Modify    
 		
 		/*Creating a HashMap to store department ID (Integer) and department name (String)
         HashMap<Integer, String> hm = new HashMap<>();
