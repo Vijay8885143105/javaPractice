@@ -19,7 +19,7 @@ public class CountEvenAndOddDigits7 {
 		}
 		System.out.println("Number of even_numbers  "+even_count);
 		System.out.println("Number of odd_numbers  "+odd_count);
-		
+System.out.println("========================================================================================================");	
 		//Print alternative odd numbers
 		/*int a[] = {1,2,3,4,5,6,7,8,9};       (OR)      int a[]={1,3,5,7,9,11,13};
                int count = 0;
@@ -31,7 +31,7 @@ public class CountEvenAndOddDigits7 {
             {   
             System.out.println(num);                     // 1,5,9
            }
-               count++;
+               count++;  //Increases count only when an odd number is found
            }       
             }*/
  System.out.println("========================================================================================================");
@@ -43,7 +43,7 @@ public class CountEvenAndOddDigits7 {
                 if(count % 2 == 0) {  // print alternate even
                     System.out.println(num);                                 //2,6
                 }
-                count++;   // increase only when even*
+                count++;     //Increases count by 1 only when an even number is found.
             }
         }*/
 	}
