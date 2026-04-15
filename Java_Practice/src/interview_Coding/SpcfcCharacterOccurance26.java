@@ -13,25 +13,25 @@ public class SpcfcCharacterOccurance26 {
 		
 		//replace() — Simple Replacement (NO REGEX)
 		//replaceAll() — Pattern-Based Replacement (USES REGEX)
-		
+System.out.println("===================================================================================================");
 		//Replace the characters e,a with @ symbol
 		/*String str = "republic day celebrated in the January";
 		String result = str.replaceAll("[ea]", "@");
 		System.out.println(result);*/
 		
-		
+System.out.println("===================================================================================================");		
 		
 		/* String str="we celebrate republic dayb in the month of january";
 		 * 
 	     String replace=str.replaceAll("[ra]","\\$");------------------>>>>>>>>>>>>>>>Difference is the \\
 	     System.out.println(replace);*/
-		
+System.out.println("===================================================================================================");		
 		//Replace the "a" with @ and "w" with $
 		
 		/* String str="we celebrate republic day in the month of january";
 	        String replace=str.replace("a","@").replace("w","$");     
 	        System.out.println(replace);*/
-		
+System.out.println("===================================================================================================");		
 		
 		//Replace the  w with x and y with z        (with replaceAll method)
 		

@@ -8,6 +8,7 @@ public class Seperate_Character_algrthm35
 		//stringBuilder used to create and modify strings efficiently.
 		//StringBuilder objects to store different categories of characters
 		//new ::This keyword is used to create a new instance of a class. It allocates memory for the new object
+		
 		/*StringBuilder lowercase=new StringBuilder();
 		StringBuilder uppercase=new StringBuilder();   //This is the constructor of the StringBuilder class. 
 		StringBuilder digits=new StringBuilder();
@@ -36,6 +37,7 @@ public class Seperate_Character_algrthm35
 		System.out.println(uppercase);
 		System.out.println(digits);*/
 		
+System.out.println("================================================================================================");
 		//Approach 2
 	     String str="sumitMT35";
 	     String str1=str.replaceAll("[^A-Z]","");    //replaceAll is the pattern based (regular expression)

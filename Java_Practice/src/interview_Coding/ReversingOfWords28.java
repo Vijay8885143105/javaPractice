@@ -64,9 +64,8 @@ public class ReversingOfWords28 {
 		String words[] = input.split(" "); 
 		System.out.println(Arrays.toString(words));  
 		String rev_String = "";
-
-		//Loop through each word in the array:
 		int index = 0;  // to check word positions
+		//Loop through each word in the array:
 		for (String each : words)
 		{
 		    String rev_Word = "";  //Initialize an empty string to hold the reversed word:

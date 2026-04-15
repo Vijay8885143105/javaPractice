@@ -55,7 +55,7 @@ public class DepartmentMap40 {
 			System.out.println("Key: " + key + ", Value: " + value);
 		}
 		
-		System.out.println("=================================================================================================");
+System.out.println("=================================================================================================");
 
 		// Modify the value of an entry 
 		for (Map.Entry<String, Integer> entry : map.entrySet()) {
@@ -72,7 +72,7 @@ public class DepartmentMap40 {
 		  {
 		      System.out.println(entry);
 		  }
-		System.out.println("================================================================================================");
+System.out.println("================================================================================================");
 		
 		HashMap<Integer,String> hm=new HashMap<>();
 		hm.put(100,"vijji");

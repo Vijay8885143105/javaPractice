@@ -24,7 +24,7 @@ public class Unique_emnt_wtOut_Collectns_54 {
 	                System.out.println(a[i]);
 	            }
 	        }*/
-	  System.out.println("=================================================================================================================="); 	
+System.out.println("=================================================================================================================="); 	
 	    	//Print the Unique elements in the array
 	    	int a[] = {10, 20, 30, 30, 40, 40};
 	        System.out.println("Unique elements:");

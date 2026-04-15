@@ -28,6 +28,8 @@ public class DuplicatesElementsInArray19 {
 		{
 			System.out.println("Duplicate element   not found");
 		}*/
+		
+System.out.println("=================================================================================================");
 		String arr[]= {"java","Python","C","C#","java",".Net","Python"};
 		boolean flag=false;
 		HashSet<String> hs=new HashSet<>();
@@ -40,5 +42,7 @@ public class DuplicatesElementsInArray19 {
 		if (flag==false) {
 			System.out.println("No duplicate element in the array");
 		}
+System.out.println("=================================================================================================");
+
 	}
 }

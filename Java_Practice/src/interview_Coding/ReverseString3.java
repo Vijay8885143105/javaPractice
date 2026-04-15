@@ -12,6 +12,7 @@ public class ReverseString3 {
 			rev =rev+str.charAt(i);    //appends each character of str (starting from the end)
 		}
 		System.out.println(rev); //FEDCBA*/
+System.out.println("================================================================================================");
 		
 		//Using char array
 		char a[]=str.toCharArray();
@@ -21,6 +22,7 @@ public class ReverseString3 {
 		}
 		System.out.println(rev); //FEDCBA
 		
+System.out.println("================================================================================================");
 		//Using StringBuffer Class  //StringBuffer used to create and modify strings efficiently.
 		/*StringBuffer sb=new StringBuffer(str);
 		StringBuffer reverse=sb.reverse();

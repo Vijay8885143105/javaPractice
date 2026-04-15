@@ -19,7 +19,7 @@ public class Char_Identification37
             {
     System.out.println( "letter not found "); 
             }      
-            System.out.println("===================================================================");
+ System.out.println("===============================================================================================");
             //Using for each loop
           /*  String str="hello japan";
             char letter='j';

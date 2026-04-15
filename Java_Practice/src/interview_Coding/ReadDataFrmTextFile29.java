@@ -21,7 +21,7 @@ public class ReadDataFrmTextFile29 {
 			System.out.println(str);
 		}
 		br.close();*/
-
+System.out.println("===================================================================================================");		
 		//Approach 2
 		/*File f=new File("D:\\VijayTexton25thoctober.text");
 		Scanner scr=new Scanner(f);
@@ -29,6 +29,7 @@ public class ReadDataFrmTextFile29 {
 			String Req=scr.nextLine();
 			System.out.println(Req);
 		}*/
+System.out.println("===================================================================================================");		
 
 		//Approach 3
 		File f=new File("D:\\VijayTexton25thoctober.text");

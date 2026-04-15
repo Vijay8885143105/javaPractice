@@ -7,6 +7,8 @@ public class ReversingNumber2 {
 	public static void main(String[] args) {
 		//creates a Scanner object to read input from the user.
 		//new is a keyword in Java used to create (instantiate) an object.
+		//Scanner(System.in) → Constructor
+		//new Scanner(System.in) → Instantiation (object creation using constructor)
 		//Scanner is the class
 		Scanner scr=new Scanner(System.in);       //System.in is the argument
 		System.out.println("Enter a number");    //new Scanner(...) is the constructor of the Scanner class.
@@ -18,13 +20,18 @@ public class ReversingNumber2 {
 			rev=rev*10 + num%10;  //extracts the last digit of num and appends it to rev.
 			num=num/10;			      //removes the last digit from num
 		}
+System.out.println("================================================================================================");
 
+        //StringBuffer is a class in Java that is used to create mutable sequences of characters
 		/*Using StringBuffer class     //StringBuffer used to create and modify strings efficiently.
 		 //Convert the number to a StringBuffer
 		StringBuffer sb=new StringBuffer(String.valueOf(num));
 		StringBuffer rev=sb.reverse();        // Reverse the contents of the StringBuffer
 		System.out.println(rev);*/
 
+System.out.println("================================================================================================");
+		
+        //StringBuilder is a class in Java that is used to create mutable sequences of characters
 		/*Using stringBuilder Class  //stringBuilder used to create and modify strings efficiently.
 		 //creates a StringBuilder object sb1.
 		StringBuilder sb1=new StringBuilder();
