@@ -28,7 +28,7 @@ public class FirstNonRepeatingChar_52  {
         }
         System.out.println("No non-repeating character found");
         
-      System.out.println("===========================================================================================");
+ System.out.println("================================================================================================");
         
         //Second non -repetitive character found
         

@@ -16,7 +16,7 @@ public class Selenium_Imp_Scripts_61 {
 	        System.out.println("Total links found: " + links.size());
 
 	        for (WebElement link : links) {    //Loop Through Each Link
-             // Extracting URL from Link
+             // Extracting URL from Link*
 	            String url = link.getAttribute("href");  //Reads the actual link address from the anchor tag.
 
 	            if (url == null || url.isEmpty()) {
@@ -46,7 +46,7 @@ public class Selenium_Imp_Scripts_61 {
 	        }
 	        driver.quit();*/
 
-		System.out.println("================================================================================================");
+System.out.println("================================================================================================");
 
 		/*How do you handle multiple windows in Selenium using Set and switch to a ((specific window)) based on its title?
 
@@ -96,7 +96,7 @@ public class Selenium_Imp_Scripts_61 {
         // 8. Close browser
         driver.quit();
 		 */
-		System.out.println("=====================================================================================================");
+System.out.println("=====================================================================================================");
 		//How do you handle ((multiple child windows)) in Selenium and switch back to the parent window?
 
 		/*WebDriver driver = new ChromeDriver();
@@ -136,7 +136,7 @@ public class Selenium_Imp_Scripts_61 {
 		driver.findElement(By.name("identifier")).sendKeys("pranga2010");
 		Thread.sleep(5000);
 		driver.quit();*/
-		System.out.println("=====================================================================================================");
+System.out.println("=====================================================================================================");
 
 		//Counting items in the listbox  OR Handling ((Dropdown OR ListBox))
 		/*WebDriver driver = new ChromeDriver();
@@ -156,7 +156,7 @@ public class Selenium_Imp_Scripts_61 {
 		}
 	       Thread.sleep(5000);
 	       driver.quit();*/
-		System.out.println("=====================================================================================================");
+System.out.println("=====================================================================================================");
 		//Handling list box in facebook app
 
 		/* WebDriver driver = new ChromeDriver();
@@ -184,7 +184,7 @@ public class Selenium_Imp_Scripts_61 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.quit();
 		 */
-		System.out.println("=====================================================================================================");
+System.out.println("=====================================================================================================");
 		//Check box collection
 		/*    //Checkboxes Text is inside attribute (hidden)  getAttribute("value")
 		List<WebElement>all_checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
@@ -200,7 +200,7 @@ public class Selenium_Imp_Scripts_61 {
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.quit();*/
-		System.out.println("=====================================================================================================");
+System.out.println("=====================================================================================================");
 		//Get collection of Radio buttons
 		/*     //Text is inside <div> (visible) getText()
 		List<WebElement>all_Radios = driver.findElements(By.xpath("//div[@class='radio_b']"));
@@ -216,7 +216,7 @@ public class Selenium_Imp_Scripts_61 {
 		for (WebElement each : all_Links) {
 			System.out.println(each.getText());
 		}*/
-		System.out.println("=====================================================================================================");
+System.out.println("=====================================================================================================");
 		//Print weekends only using switch case statement
 		/*int key=5;
 		switch (key) {
@@ -237,7 +237,7 @@ public class Selenium_Imp_Scripts_61 {
 			System.out.println("WeekDay");
 	}
 		 */
-		System.out.println("=====================================================================================================");
+System.out.println("=====================================================================================================");
 
 
 	}

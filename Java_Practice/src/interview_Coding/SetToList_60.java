@@ -41,7 +41,7 @@ public class SetToList_60 {
                                                     set.addAll(list);
 */
 		
-		System.out.println("=================================================================================================");
+System.out.println("=================================================================================================");
 		/* Sort the arrays and add them both                               **IntStream.concat**
 		 
         int a1[] = {10, 2, 5, 4, 3};
@@ -58,7 +58,7 @@ public class SetToList_60 {
         System.out.println("Merged array: " + Arrays.toString(result));              //IntStream is an interface in Java Stream API used to handle sequences of primitive int values efficiently.
     }                             
 }*/
-		System.out.println("=================================================================================================");
+System.out.println("=================================================================================================");
 	//Difference between the 2 consecutive numbers                       **Math.abs**
 		
 		        int a[] = {1, 3, 5, 7, 8, 12};
@@ -75,7 +75,7 @@ public class SetToList_60 {
 		            int diff = Math.abs(a[i + 1] - a[i]);      //Math.abs() makes sure the difference is always positive.
 		            System.out.println(diff);*/
 		    
-		System.out.println("=================================================================================================");
+System.out.println("=================================================================================================");
 
 
 	}
