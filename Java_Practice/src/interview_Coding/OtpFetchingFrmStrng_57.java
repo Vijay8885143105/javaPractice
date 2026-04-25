@@ -22,6 +22,7 @@ public class OtpFetchingFrmStrng_57 {
 			System.out.println("OTP is: " + m.group());               //group() returns the matched text
 		}
 	}
+
 	/*//Using StringBuilder class
 
 	        /* String str="hello master 234567  vijji hello ra &^%$ ";
