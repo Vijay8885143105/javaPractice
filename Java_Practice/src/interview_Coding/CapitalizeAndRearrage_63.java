@@ -3,7 +3,7 @@ package interview_Coding;
 public class CapitalizeAndRearrage_63 {
 
 	public static void main(String[] args) {
-
+		//Easy
 		String input = "applicationjavastarted";
 
 		// Split manually based on known words
@@ -23,6 +23,7 @@ public class CapitalizeAndRearrage_63 {
 	//word.substring(1)` → gets the rest of the string	- `+` → combines them
 	//Example::::   "java"` → `"J"` + `"ava"` → `"Java"`
 //========================================================================================================================
+		//Very Easy
 		//👉 If input had spaces (easier case)
 		/*String input = "application java started";
         String words[] = input.split(" ");
@@ -39,6 +40,7 @@ public class CapitalizeAndRearrage_63 {
         return word.substring(0,1).toUpperCase() + word.substring(1);
     }*/
 //========================================================================================================================
+		//Very Very Easy
 		//👉 I/p:applicationjavastarted        o/p:ApplicationJavaStarted    **Same the Order**
 		/*String input = "application java started";
         String words[] = input.split(" ");
