@@ -41,7 +41,7 @@ public class RemoveFrst_Lst_LtrFrm_StringArray_62 {
 		//Remove the First letter
 		/*String str[] = {"Applea", "Autoa", "Alphaa"};
 
-        for (int i = 0; i < str.length; i++) {          //str.length` is `3`, so the loop runs 3 times.
+        for (int i = 0; i < str.length; i++) {           //str.length` is `3`, so the loop runs 3 times.
             str[i] = str[i].replaceFirst("^.", ""); // remove first character , str[i]: accesses each string in the array.
         }                                                                      //^ → start of the string
                                                                                //. → any single character

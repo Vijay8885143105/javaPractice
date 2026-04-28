@@ -5,7 +5,7 @@ import java.util.List;
 public class Selenium_Imp_Scripts_61 {
 
 	public static void main(String[] args) {
-		//How do you find all hyper links on a web page and verify whether they are broken or working using selenium ?
+		//How do you find all hyper links on a web page and verify whether they are broken or working using  selenium ?
 
 		/*WebDriver driver = new ChromeDriver();
 	        driver.manage().window().maximize();
@@ -61,7 +61,7 @@ System.out.println("============================================================
         String parentWindow = driver.getWindowHandle();
         System.out.println("Parent Window ID: " + parentWindow);
 
-        // 3. Open multiple windows
+        // 3. Open multiple windows **
         driver.findElement(By.linkText("Help")).click();
         driver.findElement(By.linkText("Privacy")).click();
         driver.findElement(By.linkText("Terms")).click();
@@ -109,7 +109,7 @@ System.out.println("============================================================
 		String parent = driver.getWindowHandle();
 		System.out.println(parent);
 
-		//click three links to open tabs
+		//click three links to open tabs **
 		driver.findElement(By.linkText("Help")).click();
 		driver.findElement(By.linkText("Privacy")).click();
 		driver.findElement(By.linkText("Terms")).click();

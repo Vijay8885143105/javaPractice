@@ -41,7 +41,7 @@ public class CapitalizeAndRearrage_63 {
     }*/
 //========================================================================================================================
 		//Very Very Easy
-		//👉 I/p:applicationjavastarted        o/p:ApplicationJavaStarted    **Same the Order**
+		//👉 I/p:application java started        o/p:Application Java Started    **Same the Order**
 		/*String input = "application java started";
         String words[] = input.split(" ");
         String result = "";
