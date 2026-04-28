@@ -4,7 +4,7 @@ public class SplitMethod_43 {
     public static void main(String[] args) {
         String str = "I love swetha from tamilnadu";
         
-        // Split the string into words
+        // Split the string into  array of words
         String words[] = str.split(" ");
         
         // Print the word "swetha"

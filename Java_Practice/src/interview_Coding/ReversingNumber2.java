@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ReversingNumber2 {
 
 	public static void main(String[] args) {
+		//import java.util.Scanner;
 		//creates a Scanner object to read input from the user.
 		//new is a keyword in Java used to create (instantiate) an object.
 		//Scanner(System.in) → Constructor

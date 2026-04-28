@@ -46,7 +46,7 @@ System.out.println("============================================================
 		map.put("Cherry", 3);
 
 		// Iterate through the HashMap
-		for (Map.Entry<String, Integer> entry : map.entrySet()) {
+		for (Map.Entry<String, Integer> entry : map.entrySet()) { //entrySet() returns a set of all key–value pairs in the map
 			// Get key and value from the entry
 			String key = entry.getKey();
 			Integer value = entry.getValue();
@@ -58,7 +58,7 @@ System.out.println("============================================================
 System.out.println("=================================================================================================");
 
 		// Modify the value of an entry 
-		for (Map.Entry<String, Integer> entry : map.entrySet()) {
+		for (Map.Entry<String, Integer> entry : map.entrySet()) {  //entrySet() returns a set of all key–value pairs in the map
 			if (entry.getKey().equals("Banana")) {
 				// Set a new value for the entry
 				Integer oldValue = entry.setValue(5);
@@ -80,7 +80,7 @@ System.out.println("============================================================
 		hm.put(102,"konni");
 		hm.put(103,"anni");
 		System.out.println(hm);
-		for(Map.Entry<Integer,String> entry:hm.entrySet())
+		for(Map.Entry<Integer,String> entry:hm.entrySet())  //entrySet() returns a set of all key–value pairs in the map
 		{
 			if(entry.getKey().equals(101))
 			{

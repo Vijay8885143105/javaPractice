@@ -12,7 +12,7 @@ public class ArrayList_jarus_58 {
 		 ArrayList<String> list = new ArrayList<>(Arrays.asList("T1", "T2", "T3", "T4", "T5"));
       //Now list contains: [T1, T2, T3, T4, T5]   
 		 //list.replaceAll() → ArrayList method that replaces each element using a UnaryOperator.
-		 //UnaryOperator is a functional interface in Java  (Input type = Output type)
+		 //UnaryOperator is a functional interface in Java  (Input type = Output type) **
 		 //Unary operator does not change the data type, it only changes the value.
 	        list.replaceAll(s -> s.replaceAll("T2", "jarus"));
 	        //s -> s.replaceAll("T2", "jarus") → Lambda expression:

@@ -6,7 +6,7 @@ class SumOfDigitsintheString33{
     {
         String str="pavan12345";
         int sum=0; //Initialize a variable to hold the sum of digits
-        //Convert the string to a character array and iterate over each character
+        //Convert the string to a character array and iterate over each character **
         for(char ch:str.toCharArray())
         {
         	//Check if the character is a digit

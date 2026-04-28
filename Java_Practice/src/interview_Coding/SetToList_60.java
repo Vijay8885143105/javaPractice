@@ -47,9 +47,6 @@ System.out.println("============================================================
         int a1[] = {10, 2, 5, 4, 3};
         int a2[] = {2, 5, 9, 6, 3};
 
-        Arrays.sort(a1);
-        Arrays.sort(a2);
-
         // Simple merging (no loops)                                                                                   //import java.util.stream.IntStream;
         int result[] = IntStream.concat(Arrays.stream(a1), Arrays.stream(a2))   //Arrays.stream(a1) → converts array to stream
                                                                                                                                                    //Arrays.stream(a2) → converts second array
@@ -61,23 +58,21 @@ System.out.println("============================================================
 System.out.println("=================================================================================================");
 	//Difference between the 2 consecutive numbers                       **Math.abs**
 		
-		        int a[] = {1, 3, 5, 7, 8, 12};
+		       /* int a[] = {1, 3, 5, 7, 8, 12};
 
 		        for (int i = 0; i < a.length - 1; i++) 
 		        {
 		            int diff = a[i + 1] - a[i];
 		            System.out.println(diff);
-		        }
+		        }*/
 		        
-		       /* int a[] = {1, 8, 5, 7, 8, 12};
+		        int a[] = {1, 8, 5, 7, 8, 12};
 
 		        for (int i = 0; i < a.length - 1; i++) {
 		            int diff = Math.abs(a[i + 1] - a[i]);      //Math.abs() makes sure the difference is always positive.
-		            System.out.println(diff);*/
+		            System.out.println(diff);
 		    
-System.out.println("=================================================================================================");
-
-
+//System.out.println("=================================================================================================");
 	}
-
+   }
 }

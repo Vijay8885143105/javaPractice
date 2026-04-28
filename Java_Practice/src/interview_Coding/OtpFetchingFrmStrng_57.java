@@ -22,7 +22,7 @@ public class OtpFetchingFrmStrng_57 {
 			System.out.println("OTP is: " + m.group());               //group() returns the matched text
 		}
 	}
-
+//=========================================================================================================================
 	/*//Using StringBuilder class
 
 	        /* String str="hello master 234567  vijji hello ra &^%$ ";
@@ -35,13 +35,13 @@ public class OtpFetchingFrmStrng_57 {
             }
         }
         System.out.println(digits);*/
-
+	//=========================================================================================================================
 	//Using regex
 
 	/* String str="hello master 234567  vijji hello ra &^%$ ";
-       String digits=str.replaceAll("[^0-9]","");
+       String digits=str.replaceAll("[^0-9]","");  //		//  ^  :::: negated character class
        System.out.println(digits);*/
-	//(====================================================================================================================);
+	//=========================================================================================================================
 
 	//Print the Current date 
 
@@ -57,6 +57,7 @@ public class Main
         System.out.println(dateFormat);
     }
 }*/
+//=========================================================================================================================
 	//                  (OR)       Print the Current date 
 	/*import java.util.*;
 	import java.time.LocalDate;

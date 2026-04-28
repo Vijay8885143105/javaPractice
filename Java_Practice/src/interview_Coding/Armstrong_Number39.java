@@ -7,7 +7,7 @@ class Armstrong_Number39
 	{
 		int org_num=num; // Original number to compare later
 		int cubed_num=0;  // To store the sum of cubes of digits
-		// Loop to break down the number into digits and sum their cubes
+		// Loop to break down the number into digits and sum their cubes **
 		while(num>0)
 		{
 			int rem=num%10;  // Remainder when divided by 10 gives the last digit

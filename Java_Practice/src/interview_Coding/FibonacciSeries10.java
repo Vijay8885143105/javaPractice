@@ -4,7 +4,8 @@ public class FibonacciSeries10 {
 
 	public static void main(String[] args) {
          //0  1  1  2  3  5  8  13  21  34 
-		//Fibonacci series (Fibonacci sequence) is a sequence of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1. 
+		//Fibonacci series (Fibonacci sequence) is a sequence of numbers in which each number is the sum of the two preceding ones.
+		//usually starting with 0 and 1.
 		//fibonaci series typically starts with 0 and 1. 
 		int n1=0,n2=1,sum=0;
 		System.out.println(n1+"         "+n2);    // 0 1   Print the first two Fibonacci numbers

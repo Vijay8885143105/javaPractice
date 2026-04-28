@@ -3,6 +3,7 @@ public class Seperate_Character_algrthm35
 {
 	public static void main(String args[])
 	{
+		//replace, replaceAll, replaceFirst, substring, split, StringBuilder******
 		//String str="sumitMT35";
 		//StringBuilder is a class in Java that is used to create mutable sequences of characters
 		//stringBuilder used to create and modify strings efficiently.
@@ -38,14 +39,15 @@ public class Seperate_Character_algrthm35
 		System.out.println(digits);*/
 		
 System.out.println("================================================================================================");
-		//Approach 2
-	     String str="sumitMT35";
+		//Approach 2                                                       //  ^  :::: negated character class
+	     String str="sumitMT35";                               //Extract only uppercase letters from the string
 	     String str1=str.replaceAll("[^A-Z]","");    //replaceAll is the pattern based (regular expression)
 	     System.out.println(str1);
 	          String str2=str.replaceAll("[^a-z]","");   //replace  is the simple replacement
 	     System.out.println(str2);
 	     String str3=str.replaceAll("[^0-9]","");
 	     System.out.println(str3);
+	     
 
 	}
 }

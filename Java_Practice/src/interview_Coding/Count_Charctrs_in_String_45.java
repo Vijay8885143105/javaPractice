@@ -8,12 +8,12 @@ public class Count_Charctrs_in_String_45
 		Scanner scr=new Scanner(System.in);
 		System.out.println("enter the string");
 		String str=scr.nextLine();
-		int count=0;
+		int count=0;                                        //Stores number of characters (excluding spaces)
 		for(char ch:str.toCharArray())
 		{
 			if(ch!=' ')
 			{
-				count++;
+				count++;                                       //Increases count for every valid character
 			}
 		}
 		System.out.println(count);

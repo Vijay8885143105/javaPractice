@@ -23,7 +23,8 @@ System.out.println("============================================================
 		System.out.println(rev); //FEDCBA
 		
 System.out.println("================================================================================================");
-		//Using StringBuffer Class  //StringBuffer used to create and modify strings efficiently.
+         //StringBuffer is a class in Java that is used to create mutable sequences of characters
+       //Using StringBuffer Class  //StringBuffer used to create and modify strings efficiently.
 		/*StringBuffer sb=new StringBuffer(str);
 		StringBuffer reverse=sb.reverse();
 		System.out.println(reverse);  //FEDCBA*/

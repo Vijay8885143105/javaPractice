@@ -39,7 +39,7 @@ System.out.println("============================================================
 				flag=true;
 			}
 		}
-		if (flag==false) {
+		if (flag==false) {       //If flag == false, it means no duplicates were found during the iterations.
 			System.out.println("No duplicate element in the array");
 		}
 System.out.println("=================================================================================================");
