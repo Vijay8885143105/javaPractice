@@ -5,6 +5,7 @@ import java.net.URI;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
+//DIFFERENT
 
 //Class to store user details
 class User {

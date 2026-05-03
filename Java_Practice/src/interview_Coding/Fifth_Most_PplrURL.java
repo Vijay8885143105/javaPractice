@@ -3,15 +3,21 @@ package interview_Coding;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
+//SPECIAL
 public class Fifth_Most_PplrURL {
     public static void main(String[] args) {
         try {
+        	//URI handles encoding and special characters more cleanly.
+        	//For example, spaces in URLs can cause issues with URL, but URI deals with them properly.
             // Step 1: Define the URL of the log file
             String fileUrl = "https://public.karat.io/content/urls2.txt";
 
             // Step 2: Create URL object (connect to the given link) ,        Prepares the program to read data from the internet.
-            URL url = new URL(fileUrl);
+            //URI (Uniform Resource Identifier) is used to identify a resource.
+            //It doesn’t actually connect to anything—it just represents the address in a structured way.
+            //URL (Uniform Resource Locator) is more specific—it not only identifies but also helps you locate and access the resource.
+            URI uri = new URI(fileUrl);          // Step 2: Convert String → URI → URL (modern Java approach) **
+            URL url = uri.toURL();
 
             // Step 3: Open a stream to read data from the URL
             BufferedReader br = new BufferedReader(//Actual object(or) Creating object from that class  //BufferedReader → reads the file line by line efficiently.

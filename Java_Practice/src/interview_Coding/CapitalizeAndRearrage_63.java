@@ -37,7 +37,7 @@ public class CapitalizeAndRearrage_63 {
 
     public static String capitalize(String word)
     {
-        return word.substring(0,1).toUpperCase() + word.substring(1);
+        return word.substring(0,1).toUpperCase() + word.substring(1)+"  ";
     }*/
 //========================================================================================================================
 		//Very Very Easy
@@ -46,7 +46,7 @@ public class CapitalizeAndRearrage_63 {
         String words[] = input.split(" ");
         String result = "";
         for (String word : words) {
-           result = result + word.substring(0,1).toUpperCase() + word.substring(1);
+           result = result + word.substring(0,1).toUpperCase() + word.substring(1)+" ";
         }
         System.out.println(result);*/
 

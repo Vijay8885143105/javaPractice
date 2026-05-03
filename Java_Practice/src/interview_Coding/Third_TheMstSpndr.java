@@ -1,5 +1,6 @@
 package interview_Coding;
 import java.io.*;
+import java.net.URI;
 import java.net.URL;
 import java.util.*;
 
@@ -7,13 +8,15 @@ public class Third_TheMstSpndr {
     public static void main(String[] args) {
         try {
         	String fileUrl="https://public.karat.io/content/products.txt";   //A text file on the internet
-            URL url = new URL(fileUrl);    // Prepares the program to read data from the internet,    //import java.net.URL;
+           // URL url = new URL(fileUrl);    // Prepares the program to read data from the internet,    //import java.net.URL;
+        	 URI uri = new URI(fileUrl);          // Step 2: Convert String → URI → URL (modern Java approach) **
+             URL url = uri.toURL();
             //InputStreamReader → Converts byte stream to character stream.
             //url.openStream() → Opens a stream to read data from the URL.    //Opens a stream (like downloading data)
             //BufferedReader → Efficiently reads text line by line.
             
             //Reading Data from Internet
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream())); //import java.io.*;
+            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream())); //import java.io.*;uu
 
             // Store total amount spent by each user
             Map<Integer, Double> totalSpent = new HashMap<>(); //Key → userId   ,  Value → total amount spent
