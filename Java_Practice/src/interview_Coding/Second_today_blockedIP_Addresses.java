@@ -31,6 +31,8 @@ public class Second_today_blockedIP_Addresses {
 
                 // Step 9: Make sure line has enough parts
                 if (data.length >= 3) {
+        //For each line, I extract the date and action, and if the date matches today and the action is ‘Block’, I increase the count.
+
 
                     String date = data[0];     // first part → date     , 2026-05-02 >>>>>>It contains - characters → so it’s not an int
                     String action = data[2];   // third part → Block/Allow

@@ -27,6 +27,7 @@ public class Fifth_Most_PplrURL {
             // Step 4: Create a HashMap to store URL counts
             // Key = URL (String)
             // Value = number of times it appears (Integer)
+            //Store count of each URL in a HashMap
             HashMap<String, Integer> hm = new HashMap<>();
 
             String line;

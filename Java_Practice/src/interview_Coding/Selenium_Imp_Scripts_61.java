@@ -1,4 +1,4 @@
-package interview_Coding;
+ package interview_Coding;
 
 import java.util.List;
 
@@ -10,7 +10,12 @@ public class Selenium_Imp_Scripts_61 {
 		/*WebDriver driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://flights.com");   // change URL
-              driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	        
+              driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));   //time interval of 5 seconds, Duration is the class here
+              //driver is the WebDriver object controlling the browser.
+              //manage()>>>>>Used to manage browser settings like: window size, cookies, timeouts
+              //timeouts()>>>>Used to configure waiting behavior in Selenium.
+               
 	        // Find all anchor tags
 	        List<WebElement> links = driver.findElements(By.tagName("a"));
 	        System.out.println("Total links found: " + links.size());

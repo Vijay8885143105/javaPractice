@@ -16,7 +16,7 @@ public class Third_TheMstSpndr {
             //BufferedReader → Efficiently reads text line by line.
             
             //Reading Data from Internet
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream())); //import java.io.*;uu
+            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream())); //import java.io.*;
 
             // Store total amount spent by each user
             Map<Integer, Double> totalSpent = new HashMap<>(); //Key → userId   ,  Value → total amount spent

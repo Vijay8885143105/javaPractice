@@ -12,7 +12,7 @@ public class FilterNmsInArrayList_59 {
 
               names.stream()
              .filter(name -> name.startsWith("A"))  // starts with A
-             .sorted()                              // sort alphabetically
+             .sorted()                              // sort alphabetically  **
              .forEach(System.out::println);         // print the result
     }
 
