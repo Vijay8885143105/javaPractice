@@ -49,7 +49,7 @@ public class RemoveFrst_Lst_LtrFrm_StringArray_62 {
             System.out.println(s);
         }*/
 //=====================================================================================================================
-      //Remove the letter 'p'
+      //Remove the letter     (ALL 'p's )
 		
 		/*String str[]={"appleA","americaA","andamanA"};
        for(int i=0;i<str.length;i++)
@@ -60,6 +60,18 @@ public class RemoveFrst_Lst_LtrFrm_StringArray_62 {
        {
            System.out.println(var);
        }*/
+		
+//=====================================================================================================================
+       //Remove the the last whatever letter 
+		/*String str[]={"apple","appu","avakayy"};
+      for(int i=0;i<str.length;i++)
+      {
+         str[i]=str[i].replaceFirst(".$","");
+      }
+      for(String var: str)
+      {
+          System.out.println(var);
+      }*/
 
 	}
 }

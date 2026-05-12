@@ -15,10 +15,13 @@ public class SwappingOfTwoNmbrs1 {
 		
 		
 		// 2,Swapping of two numbers without using third variable
-		/*a=a+b; //30
-		b=a-b; //10
-		a=a-b; //20
+		/*a=a+b;   output>>>>>//30
+		b=a-b;        output>>>>>//10
+		a=a-b;         output>>>>>//20
 		System.out.println("Numbers After  Swapping      "+a+"   "+b); //20 10*/
+		
+		
+		
 
 		// 3,Swapping of two numbers without using third variable
 		b=a+b-(a=b);
