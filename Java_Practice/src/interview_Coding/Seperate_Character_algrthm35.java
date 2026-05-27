@@ -3,7 +3,7 @@ public class Seperate_Character_algrthm35
 {
 	public static void main(String args[])
 	{
-		//replace, replaceAll, replaceFirst, substring, split, StringBuilder******
+		//replace, replaceAll, replaceFirst, substring, split, StringBuilder,Regular expression(regex) ******
 		//String str="sumitMT35";
 		//StringBuilder is a class in Java that is used to create mutable sequences of characters
 		//stringBuilder used to create and modify strings efficiently.
@@ -15,7 +15,7 @@ public class Seperate_Character_algrthm35
 		StringBuilder digits=new StringBuilder();
 		
      //Iterate through each character in the string
-		for(char ch:str.toCharArray())
+		for(char ch:str.toCharArray())  //Converts string to character array and iterate over each character
 		{
 			//Checking for lower case letters
 			if(ch>='a'&&ch<='z')

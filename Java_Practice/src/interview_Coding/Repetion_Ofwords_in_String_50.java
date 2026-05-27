@@ -16,7 +16,7 @@ public class Repetion_Ofwords_in_String_50{
     	        // Split the string into words using space as a separator
     	        String words[] = input.split(" ");                             
 
-    	        // Create a HashMap to store word counts
+    	        // Create a HashMap to store word counts**
     	        HashMap<String, Integer> wordCount = new HashMap<>();
 
     	        // Loop through each word

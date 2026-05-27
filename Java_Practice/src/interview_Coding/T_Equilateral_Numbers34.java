@@ -11,7 +11,7 @@ class T_Equilateral_Numbers34{
             {
                 System.out.print(" ");
             }
-            for(int k=i;k<=n;k++)    //This loop prints the numbers starting from i to n.
+            for(int k=i;k<=n;k++)    //This loop prints the numbers** starting from i to n.
             {
                 System.out.print(k+" ");
             }

@@ -9,7 +9,7 @@ public class Count_Charctrs_in_String_45
 		System.out.println("enter the string");
 		String str=scr.nextLine();
 		int count=0;                                        //Stores number of characters (excluding spaces)
-		for(char ch:str.toCharArray())
+		for(char ch:str.toCharArray())     //Converts string to character array and iterate over each character
 		{
 			if(ch!=' ')
 			{

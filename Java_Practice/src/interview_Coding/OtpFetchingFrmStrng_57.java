@@ -37,7 +37,11 @@ public class OtpFetchingFrmStrng_57 {
         System.out.println(digits);*/
 	//=========================================================================================================================
 	//Using regex
-
+	
+   //[^0-9] → matches anything that is not a digit
+	//[^aeiou] → matches any character that is not a vowel
+	//[^ ] → matches any character except a space
+	
 	/* String str="hello master 234567  vijji hello ra &^%$ ";
        String digits=str.replaceAll("[^0-9]","");  //		//  ^  :::: negated character class
        System.out.println(digits);*/

@@ -20,7 +20,7 @@ package interview_Coding;
 
 	        // Find common key-value pairs
 	        HashMap<String, Integer> commonElements = new HashMap<>();
-	        for (Map.Entry<String, Integer> entry : hm.entrySet())                          //entrySet() returns a set of all key–value pairs in the map
+	        for (Map.Entry<String, Integer> entry : hm.entrySet())             //entrySet() returns a set of all key–value pairs in the map
 	        {
 	        	/*hm2.containsKey("vasavi") is true.
 	        	hm2.get("vasavi").equals(1) is true.

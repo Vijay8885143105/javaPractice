@@ -3,8 +3,8 @@ public class Retrieving_same_words38
 {
 	public static void main(String args[])
 	{
-		//Use replace() when replacing fixed substrings or characters
-		//Use replaceAll() when replacing patterns or using regex
+		//Use replace() when replacing fixed substrings or characters //Simple replacement
+		//Use replaceAll() when replacing patterns or using regex        //Pattern based replacement
 		
 		String str="an engineer is an engineer"; 
 		String output=str.replace("is","");

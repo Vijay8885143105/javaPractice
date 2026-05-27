@@ -5,7 +5,7 @@ import java.util.List;
 public class Selenium_Imp_Scripts_61 {
 
 	public static void main(String[] args) {
-		//How do you find all hyper links on a web page and verify whether they are broken or working using  selenium ?
+		//How do you find all hyper links ** on a web page and verify whether they are broken or working using  selenium ?
 
 		/*WebDriver driver = new ChromeDriver();
 	        driver.manage().window().maximize();
@@ -22,7 +22,7 @@ public class Selenium_Imp_Scripts_61 {
 
 	        for (WebElement link : links) {    //Loop Through Each Link
              // Extracting URL from Link*
-	            String url = link.getAttribute("href");  //Reads the actual link address from the anchor tag.
+	            String url = link.getAttribute("href");  //** Reads the actual link address from the anchor tag.
 
 	            if (url == null || url.isEmpty()) {
 	                System.out.println("URL is empty or not configured");
@@ -59,7 +59,8 @@ System.out.println("============================================================
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://gmail.com");
-
+        
+         //Sets the implicit wait time.
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));  // wait for page load
 
         // 2. Store parent window

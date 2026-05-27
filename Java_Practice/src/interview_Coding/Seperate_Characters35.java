@@ -2,6 +2,8 @@ package interview_Coding;
 
 public class Seperate_Characters35 {
     public static void main(String[] args) {
+    	//In Java, mutable sequences of characters are represented by StringBuilder and StringBuffer,
+    	//which allow modifying character content without creating new objects.
         String input = "sumitMT35";
         StringBuilder lowerCase = new StringBuilder();   //stringBuilder used to create and modify strings efficiently.
         StringBuilder upperCase = new StringBuilder();
