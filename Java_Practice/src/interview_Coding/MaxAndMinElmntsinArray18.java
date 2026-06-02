@@ -43,7 +43,7 @@ System.out.println("============================================================
 System.out.println("================================================================================================");
 
                 ArrayList<Integer> numbers = new ArrayList<>();
-                Scanner scr = new Scanner(System.in);                                                 //it dynamic input from the user
+                Scanner scr = new Scanner(System.in);                                                 //it dynamic input from the user**
                 System.out.print("Enter the number of elements ");
                 int num = scr.nextInt();
                 System.out.println("Enter " + num + " numbers:");

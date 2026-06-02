@@ -27,7 +27,7 @@ public class Repetition_Vowels32
 		int charcount[] = new int[256];  //256 is the size of the ASCII character set
 		for(char c:vowels.toCharArray())
 		{
-			charcount[c]++;    //increment the count for the specific vowel
+			charcount[c]++;    //increment the count for the specific vowel**
 		}
 		        // Print the count of each vowel
 		for(int i=0;i<charcount.length-1;i++)

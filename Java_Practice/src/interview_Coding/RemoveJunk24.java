@@ -4,7 +4,7 @@ public class RemoveJunk24 {
 
 	public static void main(String[] args) {
          //replaceAll() method to remove all characters from the string str that are not letters (a-z, A-Z) or digits (0-9).
-		//  ^  :::: negated character class
+		//  ^  :::: negated character class,  It matches any character except the characters inside the brackets**
 		//[^a-zA-Z0-9]: Matches any character that is not a letter or a digit (i.e., non-alphanumeric characters).
 		
 		String str="Vija%^^&*y7889987@@##65432vasa*&^%$vi";

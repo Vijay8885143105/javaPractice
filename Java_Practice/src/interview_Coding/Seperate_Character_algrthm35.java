@@ -8,7 +8,7 @@ public class Seperate_Character_algrthm35
 		//StringBuilder is a class in Java that is used to create mutable sequences of characters
 		//stringBuilder used to create and modify strings efficiently.
 		//StringBuilder objects to store different categories of characters
-		//new ::This keyword is used to create a new instance of a class. It allocates memory for the new object
+		//new ::This keyword is used to create a new instance of a class. It allocates memory for the new object**
 		
 		/*StringBuilder lowercase=new StringBuilder();
 		StringBuilder uppercase=new StringBuilder();   //This is the constructor of the StringBuilder class. 
